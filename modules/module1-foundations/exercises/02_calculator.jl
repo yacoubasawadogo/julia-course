@@ -20,26 +20,18 @@ println("Implémentez ces fonctions :")
 # Code de départ
 function additionner(a, b)
     # TODO : Implémenter l'addition
-    return a + b
 end
 
 function soustraire(a, b)
-    # TODO : Implémenter la soustraction
-    return a - b
+    # TODO : Implémenter la soustraction 
 end
 
 function multiplier(a, b)
-    # TODO : Implémenter la multiplication
-    return a * b
+    # TODO : Implémenter la multiplication 
 end
 
 function diviser(a, b)
-    # TODO : Ajouter la gestion d'erreur pour la division par zéro
-    if b == 0
-        println("Erreur : Division par zéro !")
-        return nothing
-    end
-    return a / b
+    # TODO : Ajouter la gestion d'erreur pour la division par zéro 
 end
 
 # Testez vos fonctions
@@ -55,8 +47,7 @@ println("\n📚 Partie 2 : Opérations Avancées")
 println("Ajoutez ces fonctions à votre calculatrice :")
 
 function puissance(base, exposant)
-    # TODO : Implémenter la fonction puissance
-    return base ^ exposant
+    # TODO : Implémenter la fonction puissance 
 end
 
 function racine_carree(n)
@@ -69,19 +60,7 @@ function racine_carree(n)
 end
 
 function factorielle(n)
-    # TODO : Implémenter la factorielle
-    if n < 0
-        println("Erreur : Factorielle non définie pour les nombres négatifs !")
-        return nothing
-    elseif n == 0 || n == 1
-        return 1
-    else
-        resultat = 1
-        for i in 2:n
-            resultat *= i
-        end
-        return resultat
-    end
+    # TODO : Implémenter la factorielle 
 end
 
 # Test des opérations avancées
@@ -97,20 +76,20 @@ println("Créez une calculatrice interactive qui prend l'entrée utilisateur")
 function calculatrice_interactive()
     println("\n🖩 Calculatrice Interactive Démarrée !")
     println("Commandes : +, -, *, /, ^, sqrt, fact, quitter")
-    
+
     while true
         print("\nEntrez l'opération (ou 'quitter') : ")
         operation = readline()
-        
+
         if operation == "quitter"
             println("Calculatrice fermée. Au revoir ! 👋")
             break
         end
-        
+
         if operation in ["sqrt", "fact"]
             print("Entrez le nombre : ")
             num = parse(Float64, readline())
-            
+
             if operation == "sqrt"
                 resultat = racine_carree(num)
             elseif operation == "fact"
@@ -121,7 +100,7 @@ function calculatrice_interactive()
             num1 = parse(Float64, readline())
             print("Entrez le deuxième nombre : ")
             num2 = parse(Float64, readline())
-            
+
             if operation == "+"
                 resultat = additionner(num1, num2)
             elseif operation == "-"
@@ -137,7 +116,7 @@ function calculatrice_interactive()
                 continue
             end
         end
-        
+
         if resultat !== nothing
             println("Résultat : $resultat")
         end
