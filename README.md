@@ -2,7 +2,7 @@
 
 > *"Laissez votre code parler avant la théorie"* - Philosophie d'apprentissage pratique
 
-Bienvenue dans le **Cours Interactif de Programmation Julia** adapté pour les étudiants burkinabè ! Ce cours vous emmène du débutant complet au développeur Julia expert en **6 semaines intensives**.
+Bienvenue dans le **Cours Interactif de Programmation Julia** adapté pour les étudiants burkinabè ! Ce cours vous emmène du débutant complet au développeur Julia expert en **30 heures de formation intensive**.
 
 ## 🎯 Objectif du Cours
 
@@ -19,13 +19,13 @@ Maîtriser Julia pour devenir un **développeur polyvalent** capable de :
 2. Installez Julia : [julialang.org](https://julialang.org/downloads/)
 3. Suivez le parcours linéaire dans INDEX.md
 
-### 📚 **Structure Modulaire (6 Semaines)**
+### 📚 **Structure Modulaire (30 Heures)**
 
-| Module | Focus | Durée | Projets Phares |
-|--------|-------|--------|----------------|
-| **[🌟 Module 1](modules/module1-foundations/)** | Fondamentaux Julia | 2 sem | 🏛️ Palais de Moro-Naba |
-| **[🔥 Module 2](modules/module2-advanced/)** | Programmation Avancée | 2 sem | 🌌 Simulateur Physique |
-| **[🤖 Module 3](modules/module3-ml/)** | Machine Learning | 2 sem | 🌾 Prédicteur Agricole BF |
+| Module | Focus | Durée | Sessions | Projets Phares |
+|--------|-------|--------|----------|----------------|
+| **[🌟 Module 1](modules/module1-foundations/)** | Fondamentaux Julia | 10h | 5 x 2h | 🧮 Calculatrice & 🎮 Jeu de Combat |
+| **[🔥 Module 2](modules/module2-advanced/)** | Programmation Avancée | 10h | 5 x 2h | 🏛️ Aventure Textuelle |
+| **[🤖 Module 3](modules/module3-ml/)** | Data Science & ML | 10h | 5 x 2h | 🌾 Prédicteur Agricole BF |
 
 ### 🎮 **Navigation Interactive**
 ```bash
@@ -58,10 +58,10 @@ Ce cours a été **culturellement adapté** pour vos étudiants :
 - 🏆 **Ingénieur Systèmes Dynamiques** : Expert Module 2
 - 👑 **Data Scientist Julia Expert** : Maîtrise complète
 
-### ⏱️ **Temps Total : ~17 heures**
-- **Module 1** : 4.5h (fondamentaux + projet aventure)
-- **Module 2** : 4.5h (avancé + simulateur physique)  
-- **Module 3** : 8h (ML complet + 2 projets)
+### ⏱️ **Temps Total : 30 heures**
+- **Module 1** : 10h (REPL, Types, Fonctions, Tableaux, Projets)
+- **Module 2** : 10h (Structs, Dispatch, I/O, Modules, Projet)  
+- **Module 3** : 10h (DataFrames, Visualisation, Stats, ML, Projet)
 
 ## 🛠️ **Pédagogie "Code First"**
 
@@ -93,9 +93,17 @@ Ce cours a été **culturellement adapté** pour vos étudiants :
 
 ## 🎓 **Pour les Enseignants**
 
+### Organisation du Cours (30h)
+- **15 sessions de 2h** - Une session = Théorie + Pratiques + Exercice
+- **3 modules de 10h** - Progression graduelle
+- **Format hybride** - Théorie projetée + Pratique autonome
+
+### Ressources Pédagogiques
 - **[Guide Pédagogique](resources/guide_pedagogique.md)** - Méthodologies et évaluations
 - **[Antisèche Julia](resources/quick-reference/julia_cheatsheet.md)** - Référence rapide
-- **Navigation INDEX.md** - Parcours structuré pour étudiants
+- **[INDEX.md](INDEX.md)** - Navigation détaillée session par session
+- **Fichiers Théorie** - Markdown pour projection en classe
+- **Solutions Séparées** - Révélation progressive
 
 ## 🆘 **Support et Aide**
 

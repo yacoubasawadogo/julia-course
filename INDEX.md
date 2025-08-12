@@ -1,6 +1,6 @@
-# 🧭 Guide de Navigation - Cours Julia Interactif
+# 🧭 Guide de Navigation - Cours Julia Interactif (30 Heures)
 
-Bienvenue dans votre parcours d'apprentissage de Julia ! Ce guide vous accompagne étape par étape du débutant à l'expert.
+Bienvenue dans votre parcours d'apprentissage de Julia ! Ce guide vous accompagne étape par étape du débutant à l'expert en 30 heures de formation intensive.
 
 ## 🎯 Comment Utiliser Ce Guide
 
@@ -9,92 +9,79 @@ Bienvenue dans votre parcours d'apprentissage de Julia ! Ce guide vous accompagn
 - ⏳ **À faire** - Prêt à être commencé
 - 🔒 **Verrouillé** - Prérequis non remplis
 
-## 📚 Parcours d'Apprentissage Complet
+## 📚 Parcours d'Apprentissage Complet (30 Heures)
 
-### 🌟 Module 1 : Fondamentaux Julia (Semaine 1-2)
+### 🌟 Module 1 : Fondamentaux Julia (10 Heures)
 
 **Objectif :** Maîtriser les bases de Julia avec une approche pratique
 
-| Ordre | Exercice/Projet | Durée | Statut | Prérequis |
-|-------|----------------|-------|--------|-----------|
-| 1.1 | [📖 Résumé REPL](modules/module1-foundations/resume_01_repl_basics.md) | 5 min | ⏳ | - |
-| 1.2 | [💻 REPL Interactif](modules/module1-foundations/exercises/01_repl_basics.jl) | 20 min | ⏳ | Lecture 1.1 |
-| 1.3 | [📖 Résumé Calculatrice](modules/module1-foundations/resume_02_calculator.md) | 5 min | ⏳ | Exercice 1.2 |
-| 1.4 | [🧮 Calculatrice Avancée](modules/module1-foundations/exercises/02_calculator.jl) | 30 min | ⏳ | Lecture 1.3 |
-| 1.5 | [📖 Résumé Types](modules/module1-foundations/resume_03_types_game.md) | 5 min | ⏳ | Exercice 1.4 |
-| 1.6 | [⚔️ Combat des Héros Burkinabè](modules/module1-foundations/exercises/03_types_game.jl) | 30 min | ⏳ | Lecture 1.5 |
-| 1.7 | [📖 Résumé Projet](modules/module1-foundations/resume_projet_aventure.md) | 10 min | ⏳ | Exercice 1.6 |
-| 1.8 | [🏛️ **PROJET** : Palais de Moro-Naba](modules/module1-foundations/projects/text_adventure.jl) | 2h | ⏳ | Lecture 1.7 |
+| Session | Contenu | Durée | Statut | Fichiers |
+|---------|---------|-------|--------|----------|
+| **1.1** | **REPL & Bases** | 2h | ⏳ | [📖 Théorie](modules/module1-foundations/theory/theory_01_repl.md) • [🎯 Pratique 1](modules/module1-foundations/practice/practice_01_repl_1.jl) • [🎯 Pratique 2](modules/module1-foundations/practice/practice_01_repl_2.jl) • [📝 Exercice](modules/module1-foundations/exercises/exercise_01_repl.jl) |
+| **1.2** | **Variables & Types** | 2h | ⏳ | [📖 Théorie](modules/module1-foundations/theory/theory_02_types.md) • [🎯 Pratique](modules/module1-foundations/practice/) • [📝 Exercice](modules/module1-foundations/exercises/) |
+| **1.3** | **Fonctions & Contrôle** | 2h | ⏳ | [📖 Théorie](modules/module1-foundations/theory/theory_03_functions.md) • [🎯 Pratique](modules/module1-foundations/practice/) • [📝 Exercice](modules/module1-foundations/exercises/) |
+| **1.4** | **Tableaux & Collections** | 2h | ⏳ | [📖 Théorie](modules/module1-foundations/theory/theory_04_arrays.md) • [🎯 Pratique](modules/module1-foundations/practice/) • [📝 Exercice](modules/module1-foundations/exercises/) |
+| **1.5** | **Projets: Calculatrice & Jeu** | 2h | ⏳ | [🚀 Projet Calculatrice](modules/module1-foundations/exercises/02_calculator.jl) • [🎮 Projet Jeu](modules/module1-foundations/exercises/03_types_game.jl) |
 
 **🎖️ Badge Module 1 :** "Naaba Programmeur" - Maître des fondamentaux Julia
 
 ---
 
-### 🔥 Module 2 : Programmation Avancée (Semaine 3-4)
+### 🔥 Module 2 : Programmation Avancée (10 Heures)
 
-**Objectif :** Maîtriser les structures de données et la répartition multiple
+**Objectif :** Maîtriser les structures de données et la programmation avancée
 
-| Ordre | Exercice/Projet | Durée | Statut | Prérequis |
-|-------|----------------|-------|--------|-----------|
-| 2.1 | [📖 Résumé Structures](modules/module2-advanced/resume_01_data_structures.md) | 5 min | ⏳ | Badge Module 1 |
-| 2.2 | [🏗️ Structures de Données](modules/module2-advanced/exercises/01_data_structures.jl) | 45 min | ⏳ | Lecture 2.1 |
-| 2.3 | [📖 Résumé Multiple Dispatch](modules/module2-advanced/resume_02_multiple_dispatch.md) | 5 min | ⏳ | Exercice 2.2 |
-| 2.4 | [🎭 Répartition Multiple](modules/module2-advanced/exercises/02_multiple_dispatch.jl) | 45 min | ⏳ | Lecture 2.3 |
-| 2.5 | [📖 Résumé Projet Physique](modules/module2-advanced/resume_projet_physics.md) | 10 min | ⏳ | Exercice 2.4 |
-| 2.6 | [🚀 **PROJET** : Simulateur Physique](modules/module2-advanced/projects/physics_simulator.jl) | 3h | ⏳ | Lecture 2.5 |
+| Session | Contenu | Durée | Statut | Fichiers |
+|---------|---------|-------|--------|----------|
+| **2.1** | **Structs & Types Custom** | 2h | ⏳ | [📖 Théorie](modules/module2-advanced/theory/theory_05_structs.md) • [🎯 Pratique](modules/module2-advanced/practice/) • [📝 Exercice](modules/module2-advanced/exercises/) |
+| **2.2** | **Multiple Dispatch** | 2h | ⏳ | [📖 Théorie](modules/module2-advanced/theory/theory_06_dispatch.md) • [🎯 Pratique](modules/module2-advanced/practice/) • [📝 Exercice](modules/module2-advanced/exercises/) |
+| **2.3** | **File I/O & Erreurs** | 2h | ⏳ | [📖 Théorie](modules/module2-advanced/theory/theory_07_io.md) • [🎯 Pratique](modules/module2-advanced/practice/) • [📝 Exercice](modules/module2-advanced/exercises/) |
+| **2.4** | **Modules & Packages** | 2h | ⏳ | [📖 Théorie](modules/module2-advanced/theory/theory_08_modules.md) • [🎯 Pratique](modules/module2-advanced/practice/) • [📝 Exercice](modules/module2-advanced/exercises/) |
+| **2.5** | **Projet: Aventure Textuelle** | 2h | ⏳ | [🏛️ Projet Aventure](modules/module2-advanced/exercises/project_adventure.jl) |
 
 **🎖️ Badge Module 2 :** "Ingénieur Julia Systèmes Dynamiques" - Expert architecture avancée
 
 ---
 
-### 🤖 Module 3 : Machine Learning (Semaine 5-6)
+### 🤖 Module 3 : Data Science & Machine Learning (10 Heures)
 
-**Objectif :** Devenir un Data Scientist Julia avec MLJ et l'écosystème ML
+**Objectif :** Maîtriser l'analyse de données et le machine learning avec Julia
 
-| Ordre | Exercice/Projet | Durée | Statut | Prérequis |
-|-------|----------------|-------|--------|-----------|
-| 3.1 | [📖 Résumé MLJ](modules/module3-ml/resume_01_mlj_basics.md) | 5 min | ⏳ | Badge Module 2 |
-| 3.2 | [🤖 MLJ Fondamentaux](modules/module3-ml/exercises/01_mlj_basics.jl) | 60 min | ⏳ | Lecture 3.1 |
-| 3.3 | [📖 Résumé DataFrames](modules/module3-ml/resume_02_dataframes.md) | 5 min | ⏳ | Exercice 3.2 |
-| 3.4 | [📊 DataFrames Avancé](modules/module3-ml/exercises/02_dataframes.jl) | 60 min | ⏳ | Lecture 3.3 |
-| 3.5 | [📖 Résumé Visualisation](modules/module3-ml/resume_03_visualization.md) | 5 min | 🔒 | Exercice 3.4 |
-| 3.6 | [📈 Visualisation Scientifique](modules/module3-ml/exercises/03_visualization.jl) | 45 min | 🔒 | Lecture 3.5 |
-| 3.7 | [📖 Résumé ML Avancé](modules/module3-ml/resume_04_advanced_ml.md) | 5 min | 🔒 | Exercice 3.6 |
-| 3.8 | [🧠 ML Avancé](modules/module3-ml/exercises/04_advanced_ml.jl) | 75 min | 🔒 | Lecture 3.7 |
-| 3.9 | [📖 Résumé Bridge Python](modules/module3-ml/resume_05_python_bridge.md) | 5 min | 🔒 | Exercice 3.8 |
-| 3.10 | [🐍 Pont Python-Julia](modules/module3-ml/exercises/05_python_bridge.jl) | 45 min | 🔒 | Lecture 3.9 |
-| 3.11 | [🚀 **PROJET** : Prédicteur Agricole BF](modules/module3-ml/projects/agricultural_predictor.jl) | 4h | 🔒 | Exercice 3.10 |
-| 3.12 | [🌾 **PROJET** : Analyse Climatique Sahel](modules/module3-ml/projects/climate_analysis.jl) | 3h | 🔒 | Projet 3.11 |
+| Session | Contenu | Durée | Statut | Fichiers |
+|---------|---------|-------|--------|----------|
+| **3.1** | **DataFrames** | 2h | ⏳ | [📖 Théorie](modules/module3-ml/theory/theory_09_dataframes.md) • [🎯 Pratique](modules/module3-ml/practice/) • [📝 Exercice](modules/module3-ml/exercises/) |
+| **3.2** | **Visualisation de Données** | 2h | ⏳ | [📖 Théorie](modules/module3-ml/theory/theory_10_plotting.md) • [🎯 Pratique](modules/module3-ml/practice/) • [📝 Exercice](modules/module3-ml/exercises/) |
+| **3.3** | **Statistiques & Analyse** | 2h | ⏳ | [📖 Théorie](modules/module3-ml/theory/theory_11_statistics.md) • [🎯 Pratique](modules/module3-ml/practice/) • [📝 Exercice](modules/module3-ml/exercises/) |
+| **3.4** | **Machine Learning Bases** | 2h | ⏳ | [📖 Théorie](modules/module3-ml/theory/theory_12_ml.md) • [🎯 Pratique](modules/module3-ml/practice/) • [📝 Exercice](modules/module3-ml/exercises/) |
+| **3.5** | **Projet Final: Agriculture** | 2h | ⏳ | [🌾 Projet Agricole](modules/module3-ml/exercises/project_agriculture.jl) |
 
 **🎖️ Badge Module 3 :** "Data Scientist Julia Expert" - Maître de l'analyse de données
 
 ---
 
-## 🎯 Navigation Rapide par Type
+## 📂 Structure des Fichiers
 
-### 📖 Tous les Résumés d'Apprentissage
-- [REPL Interactif](modules/module1-foundations/resume_01_repl_basics.md)
-- [Calculatrice Avancée](modules/module1-foundations/resume_02_calculator.md) 
-- [Combat des Types](modules/module1-foundations/resume_03_types_game.md)
-- [Projet Aventure](modules/module1-foundations/resume_projet_aventure.md)
-- [Structures de Données](modules/module2-advanced/resume_01_data_structures.md)
-- [Répartition Multiple](modules/module2-advanced/resume_02_multiple_dispatch.md)
-- [Projet Physique](modules/module2-advanced/resume_projet_physics.md)
-- [MLJ Fondamentaux](modules/module3-ml/resume_01_mlj_basics.md)
-- [DataFrames Avancé](modules/module3-ml/resume_02_dataframes.md)
+### Pour Chaque Session:
 
-### 💻 Tous les Exercices
-- [01_repl_basics.jl](modules/module1-foundations/exercises/01_repl_basics.jl)
-- [02_calculator.jl](modules/module1-foundations/exercises/02_calculator.jl)
-- [03_types_game.jl](modules/module1-foundations/exercises/03_types_game.jl)
-- [01_data_structures.jl](modules/module2-advanced/exercises/01_data_structures.jl)
-- [02_multiple_dispatch.jl](modules/module2-advanced/exercises/02_multiple_dispatch.jl)
-- [01_mlj_basics.jl](modules/module3-ml/exercises/01_mlj_basics.jl)
-- [02_dataframes.jl](modules/module3-ml/exercises/02_dataframes.jl)
+1. **📖 Théorie** (`theory/theory_XX_topic.md`)
+   - Support de cours pour projection
+   - Concepts clés avec exemples
+   - Applications pratiques
 
-### 🚀 Tous les Projets
-- [🏛️ Palais de Moro-Naba](modules/module1-foundations/projects/text_adventure.jl) (Aventure textuelle)
-- [🌌 Simulateur Physique](modules/module2-advanced/projects/physics_simulator.jl) (Calcul scientifique)
+2. **🎯 Pratique** (`practice/practice_XX_topic_N.jl`)
+   - 2-3 exercices guidés
+   - Progression graduelle
+   - Feedback immédiat
+
+3. **📝 Exercice** (`exercises/exercise_XX_topic.jl`)
+   - Exercice principal autonome
+   - Validation des acquis
+   - Points et auto-évaluation
+
+4. **✅ Solutions** (`solutions/solution_XX_topic.jl`)
+   - Solutions complètes commentées
+   - Explications détaillées
+   - Bonnes pratiques
 
 ---
 
@@ -110,19 +97,22 @@ navigate()  # Menu interactif de navigation
 ## 📊 Suivi de Progression
 
 ### Badges Disponibles
-- 🥉 **Apprenti Julia** : Premier exercice complété
-- 🥈 **Développeur Julia** : Module 1 complété  
-- 🥇 **Naaba Programmeur** : Projet Module 1 réussi
-- 🏆 **Ingénieur Julia** : Module 2 complété
-- 🎖️ **Expert Systèmes** : Projet Module 2 réussi
-- ⭐ **Data Scientist** : Module 3 complété
-- 👑 **Maître Julia** : Tous les projets complétés
+- 🥉 **Apprenti Julia** : Première session complétée
+- 🥈 **Développeur Julia** : Module 1 complété (10h)
+- 🥇 **Naaba Programmeur** : Projets Module 1 réussis
+- 🏆 **Ingénieur Julia** : Module 2 complété (10h)
+- 🎖️ **Expert Systèmes** : Projet aventure réussi
+- ⭐ **Data Scientist** : Module 3 complété (10h)
+- 👑 **Maître Julia** : Formation complète (30h)
 
-### Temps Total Estimé
-- **Module 1 :** ~4.5 heures
-- **Module 2 :** ~4.5 heures  
-- **Module 3 :** ~8 heures
-- **TOTAL :** ~17 heures de formation intensive
+### Répartition du Temps (30 Heures)
+- **Module 1 : Fondamentaux** - 10 heures
+  - 5 sessions × 2h chacune
+- **Module 2 : Programmation Avancée** - 10 heures
+  - 5 sessions × 2h chacune
+- **Module 3 : Data Science & ML** - 10 heures
+  - 5 sessions × 2h chacune
+- **TOTAL :** 30 heures de formation intensive
 
 ## 🆘 Aide et Support
 
@@ -134,9 +124,34 @@ navigate()  # Menu interactif de navigation
 
 ## 🎉 Prêt à Commencer ?
 
-1. **Débutant total** → Commencez par [Module 1, Exercise 1](modules/module1-foundations/exercises/01_repl_basics.jl)
-2. **Quelques bases Julia** → Évaluez-vous avec [Types Game](modules/module1-foundations/exercises/03_types_game.jl)  
-3. **Déjà expérimenté** → Foncez sur [Module 2](modules/module2-advanced/)
-4. **Expert en quête de ML** → Direction [Module 3](modules/module3-ml/)
+### Parcours Recommandé:
 
-**Bon apprentissage, et que Julia soit avec vous ! 🚀**
+1. **Séance 1-2** (4h) : REPL & Types
+   - Commencez par [Théorie REPL](modules/module1-foundations/theory/theory_01_repl.md)
+   - Puis les pratiques guidées
+   - Terminez par l'exercice principal
+
+2. **Séance 3-5** (6h) : Fonctions, Tableaux & Projets
+   - Progressez session par session
+   - Les projets consolident les acquis
+
+3. **Séance 6-10** (10h) : Module 2 Avancé
+   - Structs et programmation orientée objet
+   - Multiple dispatch et modules
+
+4. **Séance 11-15** (10h) : Data Science & ML
+   - DataFrames et visualisation
+   - Introduction au machine learning
+
+## 💾 Organisation des Solutions
+
+Les solutions sont organisées progressivement:
+- **Début de session**: Solutions non disponibles (travail autonome)
+- **Fin de session**: Solutions des pratiques disponibles
+- **Session suivante**: Toutes les solutions disponibles
+
+Cela encourage l'exploration tout en fournissant un support quand nécessaire.
+
+---
+
+**Bon apprentissage sur 30 heures, et que Julia soit avec vous ! 🚀**
