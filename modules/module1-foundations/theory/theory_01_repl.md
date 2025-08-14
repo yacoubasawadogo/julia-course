@@ -1,4 +1,5 @@
 # 📚 Module 1 - Session 1: Le REPL Julia et les Bases
+
 **Durée: 2 heures** | **Niveau: Débutant**
 
 ---
@@ -6,6 +7,7 @@
 ## 🎯 Objectifs de la Session
 
 À la fin de cette session, vous serez capable de:
+
 - ✅ Naviguer dans le REPL Julia avec confiance
 - ✅ Effectuer des calculs arithmétiques de base
 - ✅ Créer et manipuler des variables
@@ -36,24 +38,28 @@
 ## ⚡ Les Modes du REPL
 
 ### Mode Julia (par défaut)
+
 ```julia
 julia> 2 + 2
 4
 ```
 
 ### Mode Aide (`?`)
+
 ```julia
 help?> println
 # Affiche la documentation de println
 ```
 
 ### Mode Shell (`;`)
+
 ```julia
 shell> ls
 # Execute des commandes système
 ```
 
 ### Mode Package (`]`)
+
 ```julia
 pkg> add DataFrames
 # Gère les packages Julia
@@ -67,15 +73,15 @@ pkg> add DataFrames
 
 ### Opérateurs Fondamentaux
 
-| Opération | Symbole | Exemple | Résultat |
-|-----------|---------|---------|----------|
-| Addition | `+` | `5 + 3` | `8` |
-| Soustraction | `-` | `10 - 4` | `6` |
-| Multiplication | `*` | `3 * 7` | `21` |
-| Division | `/` | `15 / 3` | `5.0` |
-| Division entière | `÷` | `17 ÷ 5` | `3` |
-| Modulo | `%` | `17 % 5` | `2` |
-| Puissance | `^` | `2^10` | `1024` |
+| Opération        | Symbole | Exemple  | Résultat |
+| ---------------- | ------- | -------- | -------- |
+| Addition         | `+`     | `5 + 3`  | `8`      |
+| Soustraction     | `-`     | `10 - 4` | `6`      |
+| Multiplication   | `*`     | `3 * 7`  | `21`     |
+| Division         | `/`     | `15 / 3` | `5.0`    |
+| Division entière | `÷`     | `17 ÷ 5` | `3`      |
+| Modulo           | `%`     | `17 % 5` | `2`      |
+| Puissance        | `^`     | `2^10`   | `1024`   |
 
 ### Fonctions Mathématiques Utiles
 
@@ -111,11 +117,13 @@ a_termine = false
 ### Conventions de Nommage
 
 ✅ **Bonnes pratiques:**
+
 - `nombre_etudiants`
 - `prix_total_fcfa`
 - `temperature_celsius`
 
 ❌ **À éviter:**
+
 - `2nombre` (ne peut pas commencer par un chiffre)
 - `prix-total` (tiret non autorisé)
 - Mots réservés (`if`, `for`, `function`)
@@ -213,17 +221,20 @@ println("Surface: $surface_m2 m² ou $surface_hectares hectares")
 ## 💡 Astuces du REPL
 
 ### Navigation dans l'Historique
+
 - `↑` : Commande précédente
 - `↓` : Commande suivante
 - `Ctrl+R` : Recherche dans l'historique
 
 ### Raccourcis Utiles
+
 - `Tab` : Autocomplétion
 - `Ctrl+C` : Interrompre l'exécution
 - `Ctrl+D` : Quitter Julia
 - `Ctrl+L` : Effacer l'écran
 
 ### Unicode et Symboles Mathématiques
+
 ```julia
 # Tapez \pi puis Tab
 π  # 3.141592653589793
@@ -250,6 +261,7 @@ println("Surface: $surface_m2 m² ou $surface_hectares hectares")
 ## 🚀 Prochaines Étapes
 
 Dans la prochaine session, nous approfondirons:
+
 - Les structures de contrôle (if, else)
 - Les boucles (for, while)
 - Les fonctions personnalisées
@@ -257,9 +269,10 @@ Dans la prochaine session, nous approfondirons:
 
 ---
 
-## 📝 Notes pour l'Instructeur
+## 📝 Notes Importantes
 
 ### Démonstrations Live Recommandées:
+
 1. Montrer les 4 modes du REPL
 2. Calculer le prix d'un sac de riz en FCFA
 3. Explorer une fonction avec `?`
@@ -267,9 +280,11 @@ Dans la prochaine session, nous approfondirons:
 5. Montrer des erreurs communes et comment les corriger
 
 ### Questions d'Interaction:
+
 - "Qui peut calculer 2^10 de tête?"
 - "Quel est le type de 3.0?"
 - "Comment vérifier le type d'une variable?"
 
 ### Piège Courant:
+
 Les étudiants oublient souvent que Julia utilise l'indexation base 1 (pas base 0 comme Python/C)

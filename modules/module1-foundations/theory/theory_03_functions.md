@@ -1,4 +1,5 @@
 # 📚 Module 1 - Session 3: Fonctions et Contrôle de Flux
+
 **Durée: 2 heures** | **Niveau: Débutant**
 
 ---
@@ -6,6 +7,7 @@
 ## 🎯 Objectifs de la Session
 
 À la fin de cette session, vous serez capable de:
+
 - ✅ Créer et utiliser des fonctions personnalisées
 - ✅ Comprendre les paramètres et valeurs de retour
 - ✅ Maîtriser les différentes syntaxes de fonctions
@@ -211,9 +213,9 @@ moyenne = calculer_moyenne(12, 15, 18)  # 15.0
 ```julia
 function analyser_notes(notes...)  # Varargs: nombre variable d'arguments
     moyenne = sum(notes) / length(notes)
-    minimum = minimum(notes)
-    maximum = maximum(notes)
-    return moyenne, minimum, maximum  # Retourne un tuple
+    moy_minimum = minimum(notes)
+    moy_maximum = maximum(notes)
+    return moyenne, moy_minimum, moy_maximum  # Retourne un tuple
 end
 
 # Décomposition du tuple
@@ -225,15 +227,15 @@ println("Moyenne: $moy, Min: $mini, Max: $maxi")
 
 ```julia
 function evaluer_note(note)
-    if note >= 16
+    if note >= 16 # dans python : et l'indentation
         return "Très bien", "🏆"
     elseif note >= 14
         return "Bien", "👍"
-    elseif note >= 10
+    elseif note >= 10 # python => elif instead of elseif
         return "Assez bien", "👌"
     else
         return "Insuffisant", "📚"
-    end
+    end # n'existe pas dans python
 end
 
 mention, emoji = evaluer_note(15)
@@ -297,15 +299,15 @@ function calculer_moyenne_ponderee(notes, coefficients)
         println("Erreur: Nombre de notes ≠ nombre de coefficients")
         return 0
     end
-    
+
     somme_ponderee = 0
     somme_coefficients = 0
-    
+
     for i in 1:length(notes)
         somme_ponderee += notes[i] * coefficients[i]
         somme_coefficients += coefficients[i]
     end
-    
+
     return somme_ponderee / somme_coefficients
 end
 
@@ -326,19 +328,19 @@ end
 function rapport_etudiant(nom, notes, coefficients, frais_scolarite=75000)
     moyenne = calculer_moyenne_ponderee(notes, coefficients)
     mention = determiner_mention(moyenne)
-    
+
     println("=== BULLETIN DE $nom ===")
     println("Moyenne générale: $(round(moyenne, digits=2))/20")
     println("Mention: $mention")
     println("Frais de scolarité: $frais_scolarite FCFA")
-    
+
     if moyenne >= 10
         reduction = moyenne > 14 ? 0.20 : 0.10
         nouveau_frais = frais_scolarite * (1 - reduction)
         println("Réduction mérite: $(reduction*100)%")
         println("Nouveaux frais: $(Int(nouveau_frais)) FCFA")
     end
-    
+
     return moyenne, mention
 end
 
@@ -355,7 +357,7 @@ moyenne, mention = rapport_etudiant("Aminata KONE", notes_aminata, coefficients)
 
 ### Docstrings (Documentation Intégrée)
 
-```julia
+````julia
 """
     convertir_temperature(celsius)
 
@@ -374,15 +376,18 @@ julia> convertir_temperature(25)
 
 julia> convertir_temperature(0)
 32.0
-```
+````
+
 """
 function convertir_temperature(celsius)
-    return celsius * 9/5 + 32
+return celsius \* 9/5 + 32
 end
 
 # Utilisation de l'aide
-?convertir_temperature  # Affiche la documentation
-```
+
+?convertir_temperature # Affiche la documentation
+
+````
 
 ---
 
@@ -400,7 +405,7 @@ formatter_numero_telephone(numero)
 calc(p, t)
 check(a)
 format(n)
-```
+````
 
 ### 2. Une Fonction, Une Responsabilité
 
@@ -449,6 +454,7 @@ end
 ## 🚀 Prochaines Étapes
 
 Dans la prochaine session, nous explorerons:
+
 - Les tableaux et collections
 - Fonctions sur les tableaux
 - Compréhensions de liste
@@ -459,17 +465,20 @@ Dans la prochaine session, nous explorerons:
 ## 📝 Notes pour l'Instructeur
 
 ### Démonstrations Live Recommandées:
+
 1. Créer une fonction de conversion FCFA/Euro ensemble
 2. Montrer les erreurs communes (oubli du `return`)
 3. Démontrer l'aide avec `?nom_fonction`
 4. Comparaison performance récursif vs itératif
 
 ### Exercices Interactifs:
+
 - Fonction de calcul d'âge à partir de date de naissance
 - Calculateur d'intérêts composés
 - Validateur de numéro de téléphone burkinabè
 
 ### Points d'Attention:
+
 - Les étudiants oublient souvent le mot-clé `return`
 - Confusion entre paramètres et arguments
 - Importance de l'ordre des paramètres positionnels

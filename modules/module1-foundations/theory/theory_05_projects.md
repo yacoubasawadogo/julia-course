@@ -1,4 +1,5 @@
 # 📚 Module 1 - Session 5: Projets Pratiques
+
 **Durée: 2 heures** | **Niveau: Débutant+**
 
 ---
@@ -6,6 +7,7 @@
 ## 🎯 Objectifs de la Session
 
 À la fin de cette session, vous serez capable de:
+
 - ✅ Concevoir et implémenter un projet complet
 - ✅ Organiser le code en fonctions modulaires
 - ✅ Gérer les entrées utilisateur et la validation
@@ -29,7 +31,7 @@ La calculatrice sera spécialement adaptée au contexte burkinabè:
 
 # Fonctionnalités spécialisées
 - Calculs agricoles (rendements, surfaces)
-- Calculs commerciaux (marges, TVA, profits)  
+- Calculs commerciaux (marges, TVA, profits)
 - Calculs financiers (intérêts simples, épargne)
 - Statistiques simples (moyennes, totaux)
 ```
@@ -129,16 +131,19 @@ end
 ### Étapes de Conception
 
 1. **Analyse des besoins**
+
    - Quelles fonctionnalités sont essentielles?
    - Qui sont les utilisateurs cibles?
    - Quelles contraintes techniques?
 
 2. **Conception modulaire**
+
    - Diviser en fonctions logiques
    - Séparer logique métier et interface
    - Prévoir l'extensibilité
 
 3. **Développement itératif**
+
    - Version minimale fonctionnelle (MVP)
    - Ajout progressif de fonctionnalités
    - Tests constants
@@ -175,14 +180,14 @@ function menu_principal()
         println("🧮 CALCULATRICE BURKINABÈ")
         println("="^50)
         println("1. Calculs de base")
-        println("2. Conversions devises") 
+        println("2. Conversions devises")
         println("3. Calculs agricoles")
         println("4. Voir historique")
         println("5. Quitter")
         println("="^50)
-        
+
         choix = readline()
-        
+
         if choix == "1"
             menu_calculs_base()
         elseif choix == "2"
@@ -229,22 +234,22 @@ end
 function calculer_profit_marche()
     println("🏪 CALCUL DE PROFIT AU MARCHÉ")
     println("Produit vendu au marché central de Ouagadougou")
-    
+
     prix_achat = lire_nombre_positif("Prix d'achat total (FCFA): ")
     prix_vente = lire_nombre_positif("Prix de vente total (FCFA): ")
-    
+
     profit_brut = prix_vente - prix_achat
     taxe_marche = profit_brut * 0.05  # 5% de taxe
     profit_net = profit_brut - taxe_marche
-    
+
     pourcentage_marge = (profit_brut / prix_achat) * 100
-    
+
     println("\n📊 RÉSULTATS:")
     println("Profit brut: $(round(profit_brut)) FCFA")
-    println("Taxe marché (5%): $(round(taxe_marche)) FCFA") 
+    println("Taxe marché (5%): $(round(taxe_marche)) FCFA")
     println("Profit net: $(round(profit_net)) FCFA")
     println("Marge: $(round(pourcentage_marge, digits=1))%")
-    
+
     # Ajouter à l'historique
     operation = "Profit marché: $prix_achat → $prix_vente FCFA"
     ajouter_historique(operation, profit_net)
@@ -252,23 +257,23 @@ end
 
 # Exemple: Conversion pour voyage
 function calculer_budget_voyage()
-    println("✈️ BUDGET DE VOYAGE") 
+    println("✈️ BUDGET DE VOYAGE")
     println("Conversion FCFA vers devise étrangère")
-    
+
     taux_change = Dict(
         "EUR" => 656, "USD" => 590, "GBP" => 750,
         "CHF" => 650, "CAD" => 435
     )
-    
+
     budget_fcfa = lire_nombre_positif("Budget disponible (FCFA): ")
-    
+
     println("\nDevises disponibles: $(keys(taux_change))")
     devise = uppercase(strip(readline("Devise de destination: ")))
-    
+
     if haskey(taux_change, devise)
         montant_devise = budget_fcfa / taux_change[devise]
         println("\n💱 $budget_fcfa FCFA = $(round(montant_devise, digits=2)) $devise")
-        
+
         # Suggestions basées sur le montant
         if devise == "EUR" && montant_devise >= 1000
             println("💡 Suffisant pour un séjour en Europe!")
@@ -287,7 +292,7 @@ end
 # Personnages inspirés de la culture burkinabè
 personnages_disponibles = [
     ("Karfo", "guerrier", "Brave guerrier mossi de Ouagadougou"),
-    ("Aminata", "chasseuse", "Experte à l'arc de la région des Hauts-Bassins"), 
+    ("Aminata", "chasseuse", "Experte à l'arc de la région des Hauts-Bassins"),
     ("Boubou", "sage", "Vieux sage dioula de Bobo-Dioulasso"),
     ("Raogo", "guerrier", "Défenseur du royaume de Tenkodogo"),
     ("Fatou", "guérisseuse", "Tradipraticienne de Banfora")
@@ -296,7 +301,7 @@ personnages_disponibles = [
 # Lieux de combat
 lieux_combat = [
     "Village de Samestenga",
-    "Marché central de Ouagadougou", 
+    "Marché central de Ouagadougou",
     "Forêt de Banfora",
     "Savane près de Dori",
     "Collines de Nahouri"
@@ -315,7 +320,7 @@ function choisir_technique_combat()
     for (i, (nom, degats, description)) in enumerate(techniques_combat)
         println("$i. $nom - $description (Dégâts: $degats)")
     end
-    
+
     while true
         choix = readline("Votre choix (1-4): ")
         try
@@ -341,7 +346,7 @@ end
 function afficher_titre_calculatrice()
     println("""
     ╔════════════════════════════════════════╗
-    ║        🧮 CALCULATRICE BURKINABÈ       ║  
+    ║        🧮 CALCULATRICE BURKINABÈ       ║
     ║                                        ║
     ║    Votre assistant pour les calculs    ║
     ║         du quotidien au Burkina        ║
@@ -353,7 +358,7 @@ function afficher_titre_combat()
     println("""
     ⚔️  ===================================== ⚔️
          🎭 COMBAT DES MASQUES TRADITIONNELS
-         
+
          Incarnez un héros burkinabè et
          affrontez les défis de la brousse!
     ⚔️  ===================================== ⚔️
@@ -366,9 +371,9 @@ function afficher_barre_vie(vie_actuelle, vie_max, nom)
     longueur_barre = 20
     rempli = round(Int, pourcentage * longueur_barre)
     vide = longueur_barre - rempli
-    
+
     couleur = pourcentage > 0.6 ? "💚" : pourcentage > 0.3 ? "💛" : "❤️"
-    
+
     barre = "█"^rempli * "░"^vide
     println("$nom: $couleur [$barre] $vie_actuelle/$vie_max PV")
 end
@@ -397,7 +402,7 @@ function sauvegarder_historique(nom_fichier="historique_calculatrice.txt")
     open(nom_fichier, "w") do fichier
         write(fichier, "=== HISTORIQUE CALCULATRICE BURKINABÈ ===\n")
         write(fichier, "Généré le: $(Dates.now())\n\n")
-        
+
         for (i, (operation, resultat)) in enumerate(historique_calculs)
             write(fichier, "$i. $operation = $resultat\n")
         end
@@ -449,12 +454,12 @@ function division_securisee(a, b)
         println("❌ Division par zéro impossible!")
         return nothing
     end
-    
+
     if !isa(a, Number) || !isa(b, Number)
         println("❌ Les opérandes doivent être des nombres!")
         return nothing
     end
-    
+
     return a / b
 end
 
@@ -491,7 +496,7 @@ end
 projet/
 ├── src/
 │   ├── calculatrice.jl      # Fonctions de calcul
-│   ├── conversions.jl       # Conversions de devises  
+│   ├── conversions.jl       # Conversions de devises
 │   ├── interface.jl         # Interface utilisateur
 │   └── utils.jl             # Fonctions utilitaires
 ├── data/
@@ -506,13 +511,15 @@ projet/
 ## 🚀 Prochaines Étapes
 
 Cette session clôt le **Module 1 - Fondations**. Vous maîtrisez maintenant:
+
 - Variables et types de base
-- Fonctions et contrôle de flux  
+- Fonctions et contrôle de flux
 - Tableaux et collections
 - Dictionnaires et structures
 - Développement de projets complets
 
 **Module 2** nous permettra d'approfondir:
+
 - Structures et types personnalisés
 - Programmation orientée objet
 - Gestion de fichiers
@@ -521,15 +528,17 @@ Cette session clôt le **Module 1 - Fondations**. Vous maîtrisez maintenant:
 
 ---
 
-## 📝 Notes pour l'Instructeur
+## 📝 Notes Importantes
 
 ### Démonstrations Recommandées:
+
 1. Développement live de la calculatrice de base
 2. Création pas-à-pas du système de combat
 3. Techniques de débogage et test
 4. Optimisation et refactoring
 
 ### Timing Suggéré:
+
 - **30 min** - Présentation théorique et architecture
 - **45 min** - Développement calculatrice guidé
 - **30 min** - Pause et questions
@@ -537,6 +546,7 @@ Cette session clôt le **Module 1 - Fondations**. Vous maîtrisez maintenant:
 - **30 min** - Polissage et tests
 
 ### Adaptations Possibles:
+
 - Simplifier les projets pour débutants absolus
 - Ajouter des fonctionnalités pour étudiants avancés
 - Personnaliser avec d'autres contextes culturels locaux
