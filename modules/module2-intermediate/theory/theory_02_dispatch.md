@@ -343,6 +343,12 @@ function calculer_total(produit::Produit{Float64})
     return round(produit.prix * produit.quantite, digits=2)
 end
 
+## Rational numbers
+
+function calculer_total(produit::Produit{Rational})
+   return round(produit.prix * produit.quantite, digits=10)
+end
+
 function calculer_tva(produit::Produit{T}) where T<:Real
     # Méthode générique avec paramètre de type
     total = calculer_total(produit)
@@ -357,13 +363,22 @@ println("Total riz: $(calculer_total(riz_entier)) FCFA")
 println("TVA riz: $(calculer_tva(riz_entier)) FCFA")
 println("Total huile: $(calculer_total(huile_float)) FCFA")
 println("TVA huile: $(calculer_tva(huile_float)) FCFA")
+
+## Forme complexe avec des if elses
+
+function calculer_total(x::Produit{T}) where T<:Real
+   total = x.prix * x.quantite
+   return isa(total, Float64) ? round(total, digits=2) : total 
+end
+
+
 ```
 
 ### Union Types pour Flexibilité
 
 ```julia
 # Types Union pour accepter plusieurs types
-const PrixType = Union{Int, Float64, Missing}
+const PrixType = Union{Int, Float64, Nothing}
 
 struct Article
     nom::String
@@ -371,12 +386,12 @@ struct Article
     disponible::Bool
 end
 
-function afficher_prix(article::Article)
-    if ismissing(article.prix)
-        println("$(article.nom): Prix non disponible")
-    else
-        println("$(article.nom): $(article.prix) FCFA")
-    end
+function afficher_prix(nom::String, prix::PrixType)
+   println("$(nom): $(prix) FCFA")
+end
+
+function afficher_prix(nom::String, ::Missing)
+   println("$(nom): Prix non disponible")
 end
 
 function calculer_remise(prix::Int, pourcentage::Real)
@@ -398,12 +413,18 @@ articles = [
     Article("Fonio", missing, false)
 ]
 
+function decrire_reduction(prix::Float64)
+   println("  Avec remise 15%: $prix FCFA")
+end
+
+function decrire_reduction(::Missing)
+   println(" Aucune remise possible")
+end
+
 for article in articles
-    afficher_prix(article)
-    if !ismissing(article.prix)
-        prix_reduit = calculer_remise(article.prix, 15)
-        println("  Avec remise 15%: $prix_reduit FCFA")
-    end
+    afficher_prix(article.nom, article.prix)
+    prix_reduit = calculer_remise(article.prix, 15)
+    decrire_reduction(prix_reduit)
 end
 ```
 
