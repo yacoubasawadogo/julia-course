@@ -117,7 +117,7 @@ age = calculer_age_africain(1995)
 
 ## 🗂️ Organisation en fichiers séparés
 
-### Structure recommandée pour un projet burkinabè
+### Structure recommandée pour un projet
 
 ```
 MonProjetBurkina/

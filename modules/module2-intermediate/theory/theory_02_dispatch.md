@@ -282,6 +282,50 @@ function calculer_tarif(transport::Zemidjani, distance_km::Float64)
     return transport.tarif_fixe
 end
 
+
+##
+
+struct Moyen_transport
+    type::String
+    
+    # taxi-velo
+    quartier::String
+    tarif_fixe::Int
+
+    #taxi-moto
+    zone::String
+    tarif_course::Int
+
+    #sotraco
+    ligne::String
+    capacite::Int
+    tarif::Int  # FCFA
+
+    #tcv
+    destination::String
+    distance_km::Int
+    tarif_base::Int
+end
+
+
+## calcul des tarifs
+
+function calculer_tarif(transport: Moyen_transport)
+   ## Si cest un taxi velo
+   if transport.type == 'taxi-velo'
+      if transport.quartier == 'tampouy'
+        return x * y
+      else
+        return missing
+      
+   else if transport.type == 'sotraco'
+      return transport.tarif
+   else if transport.type == 'taxi-moto'
+      return 
+end
+
+
+
 # Informations sur le transport
 function info_transport(t::TransportPublic)
     println("🚌 Transport public - Réglementé par l'État")
@@ -475,10 +519,10 @@ function calculer_valeur(facture::FactureEau)
     return facture.consommation_m3 * facture.tarif_m3 + facture.abonnement
 end
 
-function calculer_valeur(facture::FactureTelephone)
-    cout_communication = facture.minutes_utilisees * facture.cout_minute
-    return max(cout_communication, facture.forfait_mensuel)
-end
+#function calculer_valeur(facture::FactureTelephone)
+#    cout_communication = facture.minutes_utilisees * facture.cout_minute
+#    return max(cout_communication, facture.forfait_mensuel)
+#end
 
 function est_valide(facture::FactureElectricite)
     return facture.consommation_kwh >= 0 && facture.tarif_kwh > 0
@@ -488,9 +532,9 @@ function est_valide(facture::FactureEau)
     return facture.consommation_m3 >= 0 && facture.tarif_m3 > 0
 end
 
-function est_valide(facture::FactureTelephone)
-    return facture.minutes_utilisees >= 0 && facture.cout_minute >= 0
-end
+##function est_valide(facture::FactureTelephone)
+#    return facture.minutes_utilisees >= 0 && facture.cout_minute >= 0
+#end
 
 # Fonction générique utilisant l'interface
 function traiter_facture(facture::Calculable)

@@ -193,6 +193,13 @@ struct Point{T}
     y::T
 end
 
+struct Person
+    name::String
+end
+
+pp = Point(Person("Hamidou"), Person("Mahamadi"))
+println(pp)
+
 # Différents types de points
 point_entier = Point(5, 10)        # Point{Int64}
 point_decimal = Point(5.5, 10.2)   # Point{Float64}
