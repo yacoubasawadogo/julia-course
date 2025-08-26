@@ -1,0 +1,17 @@
+id,nom_lieu,type_lieu,region,description,niveau_danger,ressources_disponibles,pnj_presents,connexions,climat,particularites_historiques
+1,Ouagadougou,Capitale,Centre,"Capitale du Mogho-Naaba et centre du pouvoir mossi",2,"Or, Tissus, Armes","Naaba Koudoumie, Marchands, Gardes","2,3,4,8",Semi-aride,Palais royal et grande mosquée
+2,Tenkodogo,Ville Historique,Centre-Est,"Berceau mythique du royaume mossi où vécut Naaba Oubri",1,"Poteries, Mil, Fer","Naaba Oubri, Artisans, Conteurs","1,5,6",Semi-aride,Premier royaume mossi fondé
+3,Yatenga,Royaume du Nord,Nord,"Royaume mossi du nord réputé pour sa résistance",4,"Bétail, Cuir, Sel","Naaba Wubri, Guerriers, Éleveurs","1,7,9",Sahélien,Résistance à la colonisation française
+4,Fada N'Gourma,Terre des Gourma,Est,"Territoire des chasseurs gourma aux traditions millénaires",5,"Gibier, Miel, Karité","Poko, Chasseurs, Anciens","1,6,10",Soudanien,Traditions de chasse ancestrales
+5,Boussouma,Village des Masques,Centre-Est,"Village célèbre pour ses masques et cérémonies rituelles",2,"Masques, Calebasses, Mil","Wendé, Sculpteurs, Initiés","2,6,11",Semi-aride,Centre cérémoniel traditionnel
+6,Banfora,Cité des Forgerons,Sud-Ouest,"Ville réputée pour ses maîtres forgerons et ses cascades",3,"Fer, Outils, Or","Tiendrébeogo, Forgerons, Mineurs","2,4,5,12",Soudanien,Art de la métallurgie traditionnelle
+7,Dori,Porte du Sahel,Sahel,"Ville frontière entre savane et désert sur les routes caravanières",6,"Sel, Dattes, Chameaux","Boukary, Caravaniers, Touaregs","3,9,13",Sahélien,Carrefour commercial transsaharien
+8,Gaoua,Pays Lobi,Sud-Ouest,"Territoire des Lobi aux traditions architecturales uniques",4,"Ivoire, Cauris, Bois","Raogo, Artisans, Chasseurs","1,12,14",Soudano-guinéen,Architecture en terre traditionnelle
+9,Gorom-Gorom,Marché du Désert,Sahel,"Grand marché hebdomadaire du Sahel burkinabè",3,"Bétail, Tissus, Épices","Marchands, Peuls, Marabouts","3,7,13",Sahélien,Plus grand marché à bétail de la région
+10,Manga,Village des Forges,Centre-Sud,"Village traditionnel de forgerons et d'artisans du fer",2,"Fer, Charbon, Outils","Forgerons, Apprentis, Paysans","4,11,15",Soudanien,Techniques ancestrales de forge
+11,Ziniaré,Terre des Ancêtres,Plateau Central,"Village natal de nombreux héros mossi",1,"Mil, Sorgho, Artisanat","Anciens, Griots, Paysans","5,10,15",Semi-aride,Lieu de naissance de grands leaders
+12,Sindou,Pics Rocheux,Sud-Ouest,"Formations rocheuses spectaculaires et villages traditionnels",5,"Pierre, Miel, Plantes","Kouka, Guerrières, Ermites","6,8,14",Soudanien,Paysages sculptés par l'érosion
+13,Sebba,Oasis du Nord,Sahel,"Oasis verdoyante au cœur du territoire sahélien",4,"Eau, Palmiers, Dattes","Nomades, Bergers, Guides","7,9,16",Sahélien,Point d'eau vital pour les caravanes
+14,Gourcy,Vallée des Griots,Nord-Ouest,"Berceau de la tradition orale et des épopées mossi",3,"Instruments, Récits, Sagesse","Raogo, Griots, Conteurs","8,12,16",Soudanien,Conservatoire de la tradition orale
+15,Koudougou,Carrefour Central,Centre-Ouest,"Ville carrefour des routes commerciales intérieures",2,"Céréales, Bétail, Tissus","Marchands, Voyageurs, Artisans","10,11,16",Semi-aride,Plaque tournante du commerce intérieur
+16,Ouahigouya,Ancienne Capitale,Nord,"Ancienne capitale du royaume de Yatenga",3,"Chevaux, Armes, Cuir","Nobles, Cavaliers, Artisans","13,14,15",Sahélien,Siège historique du pouvoir nordiste

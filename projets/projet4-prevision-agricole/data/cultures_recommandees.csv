@@ -1,0 +1,25 @@
+id,culture,nom_scientifique,famille,precipitation_min_mm,precipitation_max_mm,temperature_min,temperature_max,duree_cycle_jours,periode_semis_debut,periode_semis_fin,rendement_moyen_t_ha,resistance_secheresse,resistance_chaleur,besoins_eau_mm,ph_sol_min,ph_sol_max,type_sol_prefere,altitude_max_m,remarques_culturales
+1,Mil,Pennisetum glaucum,Poaceae,200,800,18,42,90,Mai,Juillet,0.8,Très haute,Très haute,300,5.5,8.0,Sableux-argileux,1500,Culture de base adaptée aux zones arides
+2,Sorgho blanc,Sorghum bicolor,Poaceae,300,1200,20,40,120,Mai,Juillet,0.9,Haute,Haute,450,5.0,8.5,Argilo-sableux,1800,Résistant à la sécheresse prolongée
+3,Sorgho rouge,Sorghum bicolor,Poaceae,300,1200,20,40,120,Mai,Juillet,0.85,Haute,Haute,450,5.0,8.5,Argilo-sableux,1800,Variété locale rustique
+4,Maïs,Zea mays,Poaceae,400,1500,15,35,100,Mai,Juin,1.2,Moyenne,Moyenne,600,5.5,7.5,Limoneux riche,1500,Nécessite irrigation en zone semi-aride
+5,Riz pluvial,Oryza glaberrima,Poaceae,800,2000,20,35,120,Juin,Juillet,1.8,Faible,Moyenne,1200,5.0,7.0,Argilo-limoneux,800,Variété africaine adaptée
+6,Riz irrigué,Oryza sativa,Poaceae,1200,2500,22,38,110,Juin,Août,2.5,Très faible,Moyenne,1500,5.5,7.5,Argileux inondable,600,Nécessite maîtrise de l'eau
+7,Fonio blanc,Digitaria exilis,Poaceae,400,1000,20,35,75,Juin,Juillet,0.7,Haute,Haute,350,5.0,7.5,Sableux pauvre,1200,Céréale nutritive adaptée sols pauvres
+8,Niébé blanc,Vigna unguiculata,Fabaceae,300,1000,20,35,60,Juin,Août,0.9,Haute,Haute,400,5.5,7.5,Tous types,1000,Fixateur d'azote naturel
+9,Niébé rouge,Vigna unguiculata,Fabaceae,300,1000,20,35,65,Juin,Août,0.85,Haute,Haute,400,5.5,7.5,Tous types,1000,Variété locale résistante
+10,Arachide,Arachis hypogaea,Fabaceae,500,1200,22,32,90,Mai,Juillet,1.1,Moyenne,Moyenne,500,5.5,7.0,Sableux bien drainé,1200,Culture de rente importante
+11,Sésame,Sesamum indicum,Pedaliaceae,300,800,25,40,90,Mai,Juillet,0.8,Très haute,Très haute,350,6.0,8.0,Sableux-limoneux,1000,Oléagineux résistant à la sécheresse
+12,Beurre de karité,Vitellaria paradoxa,Sapotaceae,600,1400,20,40,Vivace,Toute l'année,Toute l'année,0.3,Haute,Haute,800,5.5,7.5,Tous types,1400,Arbre fruitier local traditionnel
+13,Noix de karité,Vitellaria paradoxa,Sapotaceae,600,1400,20,40,Vivace,Toute l'année,Toute l'année,0.25,Haute,Haute,800,5.5,7.5,Tous types,1400,Fruit de l'arbre à karité
+14,Coton,Gossypium hirsutum,Malvaceae,600,1200,20,35,150,Mai,Juin,1.5,Moyenne,Moyenne,700,5.5,8.0,Argilo-limoneux,1000,Culture industrielle de rente
+15,Tomate,Solanum lycopersicum,Solanaceae,400,800,18,30,90,Octobre,Février,15.0,Faible,Faible,500,6.0,7.0,Limoneux riche,1200,Maraîchage saison sèche avec irrigation
+16,Oignon,Allium cepa,Amaryllidaceae,300,600,15,28,120,Octobre,Janvier,12.0,Faible,Faible,400,6.0,7.5,Limoneux bien drainé,1500,Culture de contre-saison
+17,Chou,Brassica oleracea,Brassicaceae,400,800,15,25,80,Novembre,Février,20.0,Faible,Faible,450,6.0,7.5,Limoneux riche,1500,Légume de saison fraîche
+18,Haricot vert,Phaseolus vulgaris,Fabaceae,400,900,18,28,70,Novembre,Janvier,8.0,Faible,Faible,400,6.0,7.0,Limoneux fertile,1200,Maraîchage irrigation nécessaire
+19,Gombo,Abelmoschus esculentus,Malvaceae,400,1000,20,35,60,Mai,Août,3.5,Moyenne,Haute,450,5.5,7.5,Tous types,1000,Légume traditionnel résistant
+20,Aubergine,Solanum melongena,Solanaceae,500,1000,22,35,110,Avril,Juin,12.0,Moyenne,Moyenne,600,6.0,7.0,Limoneux riche,1200,Culture pérenne 6-8 mois
+21,Mangue,Mangifera indica,Anacardiaceae,800,2000,20,40,Vivace,Mars,Mai,8.0,Moyenne,Haute,1000,5.5,7.5,Bien drainé,800,Arbre fruitier tropical
+22,Orange,Citrus sinensis,Rutaceae,1000,1800,18,35,Vivace,Juin,Août,15.0,Faible,Moyenne,1200,6.0,7.5,Limoneux profond,1000,Agrume nécessite irrigation
+23,Banane,Musa paradisiaca,Musaceae,1200,2500,22,32,Vivace,Toute l'année,Toute l'année,25.0,Très faible,Faible,1800,5.5,7.0,Riche en matière organique,600,Plantation permanente humide
+24,Papaye,Carica papaya,Caricaceae,800,1500,20,32,Vivace,Mars,Octobre,30.0,Faible,Moyenne,1000,6.0,7.0,Bien drainé riche,800,Fruit tropical croissance rapide

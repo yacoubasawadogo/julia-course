@@ -1,0 +1,26 @@
+id,nom,prenom,sexe,age,profession,quartier,telephone,date_inscription,cotisation_mensuelle,statut
+1,OUEDRAOGO,Salimata,F,35,Commerçante,Patte d'Oie,70234567,2023-01-15,25000,Actif
+2,KABORE,Moussa,H,42,Mécanicien,Gounghin,71345678,2023-01-15,25000,Actif
+3,SAWADOGO,Aïcha,F,28,Coiffeuse,Tampouy,72456789,2023-01-15,25000,Actif
+4,COMPAORE,Boukary,H,38,Chauffeur,Pissy,73567890,2023-01-15,25000,Actif
+5,ZONGO,Fatoumata,F,31,Vendeuse,Samandin,74678901,2023-01-15,25000,Actif
+6,TRAORE,Idrissa,H,45,Maçon,Kossodo,75789012,2023-01-15,25000,Actif
+7,ILBOUDO,Mariam,F,26,Couturière,Wemtenga,76890123,2023-01-15,25000,Actif
+8,DIALLO,Seydou,H,33,Électricien,Boulmiougou,77901234,2023-01-15,25000,Actif
+9,OUATTARA,Rasmata,F,29,Restauratrice,Dassasgo,78012345,2023-01-15,25000,Actif
+10,BONKOUNGOU,Mamadou,H,40,Soudeur,Sig-Noghin,70123456,2023-01-15,25000,Actif
+11,NIKIEMA,Aminata,F,37,Institutrice,Somgandé,71234567,2023-01-15,25000,Actif
+12,TAPSOBA,Abdoulaye,H,44,Gardien,Wayalghin,72345678,2023-01-15,25000,Actif
+13,ZOUNGRANA,Zenabou,F,32,Ménagère,Nioko II,73456789,2023-01-15,25000,Actif
+14,BAMOGO,Issouf,H,36,Cultivateur,Rimkièta,74567890,2023-01-15,25000,Actif
+15,BELEM,Rokia,F,41,Sage-femme,Yamtenga,75678901,2023-01-15,25000,Actif
+16,COULIBALY,Hamado,H,27,Apprenti,Balkuy,76789012,2023-01-15,25000,Actif
+17,KONATE,Djénéba,F,34,Pharmacienne,Kilwin,77890123,2023-01-15,25000,Actif
+18,SANOU,Omar,H,39,Transporteur,Nongremassom,78901234,2023-01-15,25000,Actif
+19,SANON,Adama,F,30,Secrétaire,Secteur 30,70012345,2023-01-15,25000,Actif
+20,SOME,Brahima,H,43,Plombier,Secteur 15,71123456,2023-01-15,25000,Actif
+21,YAMEOGO,Hawa,F,25,Étudiante,Secteur 7,72234567,2023-01-15,25000,Actif
+22,ZEBA,Souleymane,H,46,Commerçant,Secteur 25,73345678,2023-01-15,25000,Actif
+23,TIENDREBEOGO,Awa,F,33,Infirmière,Secteur 20,74456789,2023-01-15,25000,Actif
+24,NACOULMA,Karim,H,37,Menuisier,Secteur 12,75567890,2023-01-15,25000,Actif
+25,KAGAMBEGA,Mariam,F,29,Aide-soignante,Secteur 4,76678901,2023-01-15,25000,Actif

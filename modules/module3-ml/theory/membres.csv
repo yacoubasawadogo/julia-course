@@ -1,0 +1,51 @@
+id,nom,prenom,sexe,village,region,telephone,date_adhesion,parts_sociales,statut
+1,OUEDRAOGO,Adama,H,Ouagadougou,Centre,70123456,2020-03-15,5,Actif
+2,KABORE,Fatimata,F,Bobo-Dioulasso,Hauts-Bassins,71234567,2020-11-20,3,Actif
+3,SAWADOGO,Ibrahim,H,Ouahigouya,Nord,72345678,2021-01-10,4,Actif
+4,COMPAORE,Mariam,F,Koudougou,Centre-Ouest,73456789,2021-05-22,6,Actif
+5,ZONGO,Moussa,H,Dori,Sahel,74567890,2021-08-14,2,Actif
+6,TRAORE,Aminata,F,Fada N'Gourma,Est,75678901,2021-12-03,4,Actif
+7,ILBOUDO,Ousmane,H,Dédougou,Boucle du Mouhoun,76789012,2022-02-18,3,Actif
+8,DIALLO,Aïcha,F,Banfora,Cascades,77890123,2022-04-07,5,Actif
+9,OUATTARA,Ali,H,Tenkodogo,Centre-Est,78901234,2022-06-25,4,Actif
+10,BONKOUNGOU,Salamata,F,Kaya,Centre-Nord,70112233,2022-09-12,3,Actif
+11,NIKIEMA,Seydou,H,Manga,Centre-Sud,71223344,2022-11-30,2,Actif
+12,TAPSOBA,Rasmata,F,Ziniaré,Plateau-Central,72334455,2023-01-15,4,Actif
+13,ZOUNGRANA,Yacouba,H,Gaoua,Sud-Ouest,73445566,2023-03-08,5,Actif
+14,BAMOGO,Bibata,F,Ziniaré,Plateau-Central,74556677,2023-04-22,3,Actif
+15,BELEM,Abdoulaye,H,Kombissiri,Centre,75667788,2020-07-11,4,Inactif
+16,COULIBALY,Awa,F,Orodara,Hauts-Bassins,76778899,2020-09-05,2,Actif
+17,KONATE,Hamidou,H,Yako,Nord,77889900,2020-12-18,6,Actif
+18,SANOU,Djénéba,F,Sebba,Sahel,78990011,2021-02-14,3,Actif
+19,SANON,Boureima,H,Diapaga,Est,70001122,2021-06-30,4,Actif
+20,SOME,Kadiatou,F,Nouna,Boucle du Mouhoun,71112233,2021-10-25,5,Actif
+21,YAMEOGO,Dramane,H,Sindou,Cascades,72223344,2022-01-09,3,Actif
+22,ZEBA,Rokia,F,Koupéla,Centre-Est,73334455,2022-03-28,4,Actif
+23,TIENDREBEOGO,Karim,H,Kongoussi,Centre-Nord,74445566,2022-07-16,2,Actif
+24,NACOULMA,Safiatou,F,Pô,Centre-Sud,75556677,2022-10-04,4,Actif
+25,KAGAMBEGA,Lassina,H,Zorgho,Plateau-Central,76667788,2023-01-20,5,Actif
+26,OUEDRAOGO,Fatoumata,F,Diébougou,Sud-Ouest,77778899,2023-05-15,3,Actif
+27,KABORE,Souleymane,H,Ouagadougou,Centre,78889900,2020-08-22,4,Actif
+28,SAWADOGO,Adama,F,Bobo-Dioulasso,Hauts-Bassins,70990011,2020-11-07,2,Inactif
+29,COMPAORE,Issaka,H,Ouahigouya,Nord,71001122,2021-04-13,6,Actif
+30,ZONGO,Rasmané,H,Koudougou,Centre-Ouest,72112233,2021-08-29,3,Actif
+31,TRAORE,Daouda,H,Dori,Sahel,73223344,2021-12-15,4,Actif
+32,ILBOUDO,Salif,H,Fada N'Gourma,Est,74334455,2022-02-01,5,Actif
+33,DIALLO,Amadou,H,Dédougou,Boucle du Mouhoun,75445566,2022-05-18,2,Actif
+34,OUATTARA,Arouna,H,Banfora,Cascades,76556677,2022-08-06,4,Actif
+35,BONKOUNGOU,Boubacar,H,Tenkodogo,Centre-Est,77667788,2022-11-23,3,Actif
+36,NIKIEMA,Mamadou,H,Kaya,Centre-Nord,78778899,2023-02-10,5,Actif
+37,TAPSOBA,Idrissa,H,Manga,Centre-Sud,70889900,2023-06-28,4,Actif
+38,ZOUNGRANA,Zakaria,H,Ziniaré,Plateau-Central,71990011,2020-10-12,2,Inactif
+39,BAMOGO,Modibo,H,Gaoua,Sud-Ouest,72001122,2021-01-27,6,Actif
+40,BELEM,Sibiri,H,Kombissiri,Centre,73112233,2021-07-14,3,Actif
+41,COULIBALY,Assétou,F,Orodara,Hauts-Bassins,74223344,2021-11-01,4,Actif
+42,KONATE,Maimouna,F,Yako,Nord,75334455,2022-04-19,5,Actif
+43,SANOU,Ramata,F,Sebba,Sahel,76445566,2022-09-05,2,Actif
+44,SANON,Alimata,F,Diapaga,Est,77556677,2022-12-22,4,Actif
+45,SOME,Zenabou,F,Nouna,Boucle du Mouhoun,78667788,2023-03-11,3,Actif
+46,YAMEOGO,Habibou,F,Sindou,Cascades,70778899,2023-07-29,5,Actif
+47,ZEBA,Rachida,F,Koupéla,Centre-Est,71889900,2020-05-16,4,Actif
+48,TIENDREBEOGO,Nafi,F,Kongoussi,Centre-Nord,72990011,2020-12-03,2,Inactif
+49,NACOULMA,Poko,F,Pô,Centre-Sud,73001122,2021-09-20,6,Actif
+50,KAGAMBEGA,Salimata,F,Zorgho,Plateau-Central,74112233,2022-01-08,3,Actif

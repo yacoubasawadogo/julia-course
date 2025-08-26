@@ -1,0 +1,26 @@
+id,nom,categorie,unite,prix_unitaire,stock_actuel,stock_minimum
+1,Mil,Céréales,kg,350,3200,500
+2,Sorgho blanc,Céréales,kg,400,2800,400
+3,Sorgho rouge,Céréales,kg,380,2100,350
+4,Maïs,Céréales,kg,300,4500,600
+5,Riz paddy,Céréales,kg,500,1800,300
+6,Riz décortiqué,Céréales,kg,750,1200,200
+7,Fonio,Céréales,kg,650,800,150
+8,Arachides coques,Légumineuses,kg,550,1500,250
+9,Arachides décortiquées,Légumineuses,kg,800,900,150
+10,Niébé blanc,Légumineuses,kg,600,1200,200
+11,Niébé rouge,Légumineuses,kg,550,1000,180
+12,Sésame,Oléagineux,kg,1200,400,80
+13,Beurre de karité,Oléagineux,kg,2800,200,50
+14,Noix de karité,Oléagineux,kg,220,800,150
+15,Coton graine,Cultures de rente,kg,300,2500,400
+16,Tomates,Maraîchage,kg,550,300,100
+17,Oignons,Maraîchage,kg,650,500,120
+18,Choux,Maraîchage,kg,350,200,80
+19,Haricot vert,Maraîchage,kg,900,150,50
+20,Gombo,Maraîchage,kg,525,180,60
+21,Aubergine,Maraîchage,kg,450,120,40
+22,Mangues,Fruits,kg,350,400,100
+23,Oranges,Fruits,kg,450,300,80
+24,Bananes,Fruits,kg,550,250,70
+25,Papayes,Fruits,kg,375,180,50

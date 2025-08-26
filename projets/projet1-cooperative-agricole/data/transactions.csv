@@ -1,0 +1,501 @@
+id,date,membre_id,produit_id,produit_nom,categorie,type,quantite,prix_unitaire,montant_total
+1,2023-01-05,12,1,Mil,Céréales,Vente,100,350,35000
+2,2023-01-06,5,4,Maïs,Céréales,Achat,200,280,56000
+3,2023-01-08,23,13,Beurre de karité,Oléagineux,Vente,5,2800,14000
+4,2023-01-10,7,2,Sorgho blanc,Céréales,Vente,150,400,60000
+5,2023-01-12,34,8,Arachides coques,Légumineuses,Achat,80,500,40000
+6,2023-01-15,18,16,Tomates,Maraîchage,Vente,25,550,13750
+7,2023-01-18,2,10,Niébé blanc,Légumineuses,Vente,60,600,36000
+8,2023-01-20,45,22,Mangues,Fruits,Vente,40,350,14000
+9,2023-01-22,11,1,Mil,Céréales,Achat,250,320,80000
+10,2023-01-25,29,17,Oignons,Maraîchage,Vente,35,650,22750
+11,2023-01-28,3,5,Riz paddy,Céréales,Vente,75,500,37500
+12,2023-01-30,41,12,Sésame,Oléagineux,Vente,15,1200,18000
+13,2023-02-02,16,4,Maïs,Céréales,Vente,180,300,54000
+14,2023-02-05,8,9,Arachides décortiquées,Légumineuses,Vente,30,800,24000
+15,2023-02-08,27,3,Sorgho rouge,Céréales,Achat,120,360,43200
+16,2023-02-10,14,24,Bananes,Fruits,Vente,20,550,11000
+17,2023-02-12,33,15,Coton graine,Cultures de rente,Vente,300,300,90000
+18,2023-02-15,6,7,Fonio,Céréales,Vente,25,650,16250
+19,2023-02-18,39,11,Niébé rouge,Légumineuses,Achat,90,520,46800
+20,2023-02-20,21,23,Oranges,Fruits,Vente,45,450,20250
+21,2023-02-22,1,14,Noix de karité,Oléagineux,Vente,120,220,26400
+22,2023-02-25,50,18,Choux,Maraîchage,Vente,30,350,10500
+23,2023-02-28,13,6,Riz décortiqué,Céréales,Vente,40,750,30000
+24,2023-03-03,25,20,Gombo,Maraîchage,Vente,22,525,11550
+25,2023-03-05,4,1,Mil,Céréales,Vente,200,350,70000
+26,2023-03-08,37,25,Papayes,Fruits,Achat,35,350,12250
+27,2023-03-10,19,2,Sorgho blanc,Céréales,Vente,85,400,34000
+28,2023-03-12,42,19,Haricot vert,Maraîchage,Vente,18,900,16200
+29,2023-03-15,9,4,Maïs,Céréales,Achat,300,270,81000
+30,2023-03-18,26,21,Aubergine,Maraîchage,Vente,28,450,12600
+31,2023-03-20,15,8,Arachides coques,Légumineuses,Vente,95,550,52250
+32,2023-03-22,31,13,Beurre de karité,Oléagineux,Vente,8,2800,22400
+33,2023-03-25,10,16,Tomates,Maraîchage,Achat,50,500,25000
+34,2023-03-28,47,5,Riz paddy,Céréales,Vente,55,500,27500
+35,2023-03-30,22,10,Niébé blanc,Légumineuses,Vente,70,600,42000
+36,2023-04-02,35,17,Oignons,Maraîchage,Vente,40,650,26000
+37,2023-04-05,17,3,Sorgho rouge,Céréales,Vente,110,380,41800
+38,2023-04-08,46,22,Mangues,Fruits,Vente,60,350,21000
+39,2023-04-10,30,12,Sésame,Oléagineux,Achat,25,1100,27500
+40,2023-04-12,5,7,Fonio,Céréales,Vente,32,650,20800
+41,2023-04-15,43,24,Bananes,Fruits,Vente,28,550,15400
+42,2023-04-18,20,15,Coton graine,Cultures de rente,Vente,400,300,120000
+43,2023-04-20,28,9,Arachides décortiquées,Légumineuses,Vente,45,800,36000
+44,2023-04-22,11,18,Choux,Maraîchage,Vente,25,350,8750
+45,2023-04-25,36,23,Oranges,Fruits,Achat,65,420,27300
+46,2023-04-28,7,11,Niébé rouge,Légumineuses,Vente,75,550,41250
+47,2023-04-30,48,6,Riz décortiqué,Céréales,Vente,35,750,26250
+48,2023-05-03,12,14,Noix de karité,Oléagineux,Vente,150,220,33000
+49,2023-05-05,40,1,Mil,Céréales,Vente,180,350,63000
+50,2023-05-08,3,20,Gombo,Maraîchage,Vente,30,525,15750
+51,2023-05-10,32,4,Maïs,Céréales,Vente,220,300,66000
+52,2023-05-12,24,25,Papayes,Fruits,Vente,42,375,15750
+53,2023-05-15,49,2,Sorgho blanc,Céréales,Achat,160,380,60800
+54,2023-05-18,16,21,Aubergine,Maraîchage,Vente,35,450,15750
+55,2023-05-20,38,19,Haricot vert,Maraîchage,Vente,22,900,19800
+56,2023-05-22,8,8,Arachides coques,Légumineuses,Vente,110,550,60500
+57,2023-05-25,44,13,Beurre de karité,Oléagineux,Vente,6,2800,16800
+58,2023-05-28,1,16,Tomates,Maraîchage,Vente,45,550,24750
+59,2023-05-30,27,5,Riz paddy,Céréales,Vente,85,500,42500
+60,2023-06-02,14,17,Oignons,Maraîchage,Achat,80,600,48000
+61,2023-06-05,41,10,Niébé blanc,Légumineuses,Vente,90,600,54000
+62,2023-06-08,23,3,Sorgho rouge,Céréales,Vente,95,380,36100
+63,2023-06-10,6,22,Mangues,Fruits,Vente,75,350,26250
+64,2023-06-12,50,12,Sésame,Oléagineux,Vente,20,1200,24000
+65,2023-06-15,33,7,Fonio,Céréales,Achat,45,600,27000
+66,2023-06-18,18,24,Bananes,Fruits,Vente,38,550,20900
+67,2023-06-20,45,15,Coton graine,Cultures de rente,Vente,350,300,105000
+68,2023-06-22,29,9,Arachides décortiquées,Légumineuses,Vente,55,800,44000
+69,2023-06-25,2,18,Choux,Maraîchage,Vente,40,350,14000
+70,2023-06-28,37,23,Oranges,Fruits,Vente,55,450,24750
+71,2023-06-30,21,11,Niébé rouge,Légumineuses,Vente,85,550,46750
+72,2023-07-03,47,6,Riz décortiqué,Céréales,Vente,48,750,36000
+73,2023-07-05,10,14,Noix de karité,Oléagineux,Achat,200,200,40000
+74,2023-07-08,34,1,Mil,Céréales,Vente,250,350,87500
+75,2023-07-10,19,20,Gombo,Maraîchage,Vente,35,525,18375
+76,2023-07-12,42,4,Maïs,Céréales,Vente,280,300,84000
+77,2023-07-15,26,25,Papayes,Fruits,Vente,48,375,18000
+78,2023-07-18,9,2,Sorgho blanc,Céréales,Vente,125,400,50000
+79,2023-07-20,35,21,Aubergine,Maraîchage,Achat,60,420,25200
+80,2023-07-22,15,19,Haricot vert,Maraîchage,Vente,28,900,25200
+81,2023-07-25,31,8,Arachides coques,Légumineuses,Vente,120,550,66000
+82,2023-07-28,13,13,Beurre de karité,Oléagineux,Vente,9,2800,25200
+83,2023-07-30,46,16,Tomates,Maraîchage,Vente,52,550,28600
+84,2023-08-02,22,5,Riz paddy,Céréales,Achat,90,480,43200
+85,2023-08-05,4,17,Oignons,Maraîchage,Vente,95,650,61750
+86,2023-08-08,39,10,Niébé blanc,Légumineuses,Vente,105,600,63000
+87,2023-08-10,17,3,Sorgho rouge,Céréales,Vente,88,380,33440
+88,2023-08-12,43,22,Mangues,Fruits,Vente,85,350,29750
+89,2023-08-15,28,12,Sésame,Oléagineux,Vente,18,1200,21600
+90,2023-08-18,5,7,Fonio,Céréales,Vente,38,650,24700
+91,2023-08-20,36,24,Bananes,Fruits,Achat,65,500,32500
+92,2023-08-22,20,15,Coton graine,Cultures de rente,Vente,450,300,135000
+93,2023-08-25,48,9,Arachides décortiquées,Légumineuses,Vente,62,800,49600
+94,2023-08-28,11,18,Choux,Maraîchage,Vente,45,350,15750
+95,2023-08-30,40,23,Oranges,Fruits,Vente,70,450,31500
+96,2023-09-02,7,11,Niébé rouge,Légumineuses,Vente,95,550,52250
+97,2023-09-05,32,6,Riz décortiqué,Céréales,Achat,55,720,39600
+98,2023-09-08,24,14,Noix de karité,Oléagineux,Vente,180,220,39600
+99,2023-09-10,49,1,Mil,Céréales,Vente,300,350,105000
+100,2023-09-12,16,20,Gombo,Maraîchage,Vente,42,525,22050
+101,2023-09-15,38,4,Maïs,Céréales,Vente,320,300,96000
+102,2023-09-18,8,25,Papayes,Fruits,Vente,55,375,20625
+103,2023-09-20,44,2,Sorgho blanc,Céréales,Vente,142,400,56800
+104,2023-09-22,1,21,Aubergine,Maraîchage,Vente,48,450,21600
+105,2023-09-25,27,19,Haricot vert,Maraîchage,Achat,35,850,29750
+106,2023-09-28,14,8,Arachides coques,Légumineuses,Vente,135,550,74250
+107,2023-09-30,41,13,Beurre de karité,Oléagineux,Vente,7,2800,19600
+108,2023-10-03,23,16,Tomates,Maraîchage,Vente,58,550,31900
+109,2023-10-05,6,5,Riz paddy,Céréales,Vente,115,500,57500
+110,2023-10-08,50,17,Oignons,Maraîchage,Vente,85,650,55250
+111,2023-10-10,33,10,Niébé blanc,Légumineuses,Achat,125,580,72500
+112,2023-10-12,18,3,Sorgho rouge,Céréales,Vente,105,380,39900
+113,2023-10-15,45,22,Mangues,Fruits,Vente,95,350,33250
+114,2023-10-18,29,12,Sésame,Oléagineux,Vente,22,1200,26400
+115,2023-10-20,2,7,Fonio,Céréales,Vente,45,650,29250
+116,2023-10-22,37,24,Bananes,Fruits,Vente,52,550,28600
+117,2023-10-25,21,15,Coton graine,Cultures de rente,Achat,500,280,140000
+118,2023-10-28,47,9,Arachides décortiquées,Légumineuses,Vente,68,800,54400
+119,2023-10-30,10,18,Choux,Maraîchage,Vente,52,350,18200
+120,2023-11-02,34,23,Oranges,Fruits,Vente,78,450,35100
+121,2023-11-05,19,11,Niébé rouge,Légumineuses,Vente,108,550,59400
+122,2023-11-08,42,6,Riz décortiqué,Céréales,Vente,62,750,46500
+123,2023-11-10,26,14,Noix de karité,Oléagineux,Achat,250,180,45000
+124,2023-11-12,9,1,Mil,Céréales,Vente,350,280,98000
+125,2023-11-15,35,20,Gombo,Maraîchage,Vente,48,525,25200
+126,2023-11-18,15,4,Maïs,Céréales,Achat,350,280,98000
+127,2023-11-20,25,1,Mil,Céréales,Vente,420,350,147000
+128,2023-11-22,8,25,Papayes,Fruits,Vente,60,375,22500
+129,2023-11-25,33,2,Sorgho blanc,Céréales,Vente,130,400,52000
+130,2023-11-28,41,21,Aubergine,Maraîchage,Vente,38,450,17100
+131,2023-11-30,18,19,Haricot vert,Maraîchage,Vente,25,900,22500
+132,2023-12-02,27,8,Arachides coques,Légumineuses,Vente,140,550,77000
+133,2023-12-05,6,13,Beurre de karité,Oléagineux,Vente,12,2800,33600
+134,2023-12-08,44,16,Tomates,Maraîchage,Vente,55,550,30250
+135,2023-12-10,3,5,Riz paddy,Céréales,Vente,95,500,47500
+136,2023-12-12,37,17,Oignons,Maraîchage,Achat,120,600,72000
+137,2023-12-15,12,10,Niébé blanc,Légumineuses,Vente,115,600,69000
+138,2023-12-18,50,3,Sorgho rouge,Céréales,Vente,98,380,37240
+139,2023-12-20,22,22,Mangues,Fruits,Vente,90,350,31500
+140,2023-12-22,9,12,Sésame,Oléagineux,Vente,28,1200,33600
+141,2023-12-25,29,7,Fonio,Céréales,Vente,52,650,33800
+142,2023-12-28,14,24,Bananes,Fruits,Achat,75,500,37500
+143,2023-12-30,45,15,Coton graine,Cultures de rente,Vente,380,300,114000
+144,2024-01-03,17,9,Arachides décortiquées,Légumineuses,Vente,75,800,60000
+145,2024-01-05,31,18,Choux,Maraîchage,Vente,48,350,16800
+146,2024-01-08,2,23,Oranges,Fruits,Vente,85,450,38250
+147,2024-01-10,46,11,Niébé rouge,Légumineuses,Vente,102,550,56100
+148,2024-01-12,21,6,Riz décortiqué,Céréales,Vente,68,750,51000
+149,2024-01-15,34,14,Noix de karité,Oléagineux,Achat,280,200,56000
+150,2024-01-18,7,1,Mil,Céréales,Vente,380,350,133000
+151,2024-01-20,39,20,Gombo,Maraîchage,Vente,55,525,28875
+152,2024-01-22,13,4,Maïs,Céréales,Vente,420,300,126000
+153,2024-01-25,26,25,Papayes,Fruits,Vente,68,375,25500
+154,2024-01-28,5,2,Sorgho blanc,Céréales,Achat,180,380,68400
+155,2024-01-30,42,21,Aubergine,Maraîchage,Vente,52,450,23400
+156,2024-02-02,19,19,Haricot vert,Maraîchage,Vente,32,900,28800
+157,2024-02-05,48,8,Arachides coques,Légumineuses,Vente,155,550,85250
+158,2024-02-08,11,13,Beurre de karité,Oléagineux,Vente,14,2800,39200
+159,2024-02-10,32,16,Tomates,Maraîchage,Vente,62,550,34100
+160,2024-02-12,24,5,Riz paddy,Céréales,Achat,108,480,51840
+161,2024-02-15,40,17,Oignons,Maraîchage,Vente,135,650,87750
+162,2024-02-18,16,10,Niébé blanc,Légumineuses,Vente,125,600,75000
+163,2024-02-20,49,3,Sorgho rouge,Céréales,Vente,115,380,43700
+164,2024-02-22,38,22,Mangues,Fruits,Vente,102,350,35700
+165,2024-02-25,8,12,Sésame,Oléagineux,Vente,32,1200,38400
+166,2024-02-28,44,7,Fonio,Céréales,Achat,58,600,34800
+167,2024-03-03,1,24,Bananes,Fruits,Vente,88,550,48400
+168,2024-03-05,27,15,Coton graine,Cultures de rente,Vente,420,300,126000
+169,2024-03-08,14,9,Arachides décortiquées,Légumineuses,Vente,82,800,65600
+170,2024-03-10,41,18,Choux,Maraîchage,Vente,55,350,19250
+171,2024-03-12,23,23,Oranges,Fruits,Achat,95,420,39900
+172,2024-03-15,6,11,Niébé rouge,Légumineuses,Vente,118,550,64900
+173,2024-03-18,50,6,Riz décortiqué,Céréales,Vente,78,750,58500
+174,2024-03-20,33,14,Noix de karité,Oléagineux,Vente,320,220,70400
+175,2024-03-22,18,1,Mil,Céréales,Vente,450,350,157500
+176,2024-03-25,45,20,Gombo,Maraîchage,Vente,62,525,32550
+177,2024-03-28,29,4,Maïs,Céréales,Vente,480,300,144000
+178,2024-03-30,2,25,Papayes,Fruits,Vente,78,375,29250
+179,2024-04-02,37,2,Sorgho blanc,Céréales,Vente,198,400,79200
+180,2024-04-05,12,21,Aubergine,Maraîchage,Achat,58,420,24360
+181,2024-04-08,47,19,Haricot vert,Maraîchage,Vente,38,900,34200
+182,2024-04-10,20,8,Arachides coques,Légumineuses,Vente,165,550,90750
+183,2024-04-12,36,13,Beurre de karité,Oléagineux,Vente,16,2800,44800
+184,2024-04-15,9,16,Tomates,Maraîchage,Vente,68,550,37400
+185,2024-04-18,32,5,Riz paddy,Céréales,Vente,118,500,59000
+186,2024-04-20,25,17,Oignons,Maraîchage,Vente,145,650,94250
+187,2024-04-22,43,10,Niébé blanc,Légumineuses,Achat,135,580,78300
+188,2024-04-25,17,3,Sorgho rouge,Céréales,Vente,128,380,48640
+189,2024-04-28,46,22,Mangues,Fruits,Vente,115,350,40250
+190,2024-04-30,30,12,Sésame,Oléagineux,Vente,38,1200,45600
+191,2024-05-03,5,7,Fonio,Céréales,Vente,65,650,42250
+192,2024-05-05,39,24,Bananes,Fruits,Vente,95,550,52250
+193,2024-05-08,22,15,Coton graine,Cultures de rente,Achat,460,280,128800
+194,2024-05-10,48,9,Arachides décortiquées,Légumineuses,Vente,88,800,70400
+195,2024-05-12,11,18,Choux,Maraîchage,Vente,62,350,21700
+196,2024-05-15,34,23,Oranges,Fruits,Vente,108,450,48600
+197,2024-05-18,19,11,Niébé rouge,Légumineuses,Vente,128,550,70400
+198,2024-05-20,42,6,Riz décortiqué,Céréales,Achat,85,720,61200
+199,2024-05-22,26,14,Noix de karité,Oléagineux,Vente,360,220,79200
+200,2024-05-25,9,1,Mil,Céréales,Vente,520,350,182000
+201,2024-05-28,35,20,Gombo,Maraîchage,Vente,72,525,37800
+202,2024-05-30,15,4,Maïs,Céréales,Vente,520,300,156000
+203,2024-06-02,31,25,Papayes,Fruits,Vente,88,375,33000
+204,2024-06-05,44,2,Sorgho blanc,Céréales,Vente,215,400,86000
+205,2024-06-08,1,21,Aubergine,Maraîchage,Vente,65,450,29250
+206,2024-06-10,27,19,Haricot vert,Maraîchage,Vente,42,900,37800
+207,2024-06-12,14,8,Arachides coques,Légumineuses,Achat,175,520,91000
+208,2024-06-15,41,13,Beurre de karité,Oléagineux,Vente,18,2800,50400
+209,2024-06-18,23,16,Tomates,Maraîchage,Vente,75,550,41250
+210,2024-06-20,6,5,Riz paddy,Céréales,Vente,128,500,64000
+211,2024-06-22,50,17,Oignons,Maraîchage,Vente,155,650,100750
+212,2024-06-25,33,10,Niébé blanc,Légumineuses,Vente,148,600,88800
+213,2024-06-28,18,3,Sorgho rouge,Céréales,Achat,142,360,51120
+214,2024-06-30,45,22,Mangues,Fruits,Vente,125,350,43750
+215,2024-07-03,29,12,Sésame,Oléagineux,Vente,42,1200,50400
+216,2024-07-05,2,7,Fonio,Céréales,Vente,72,650,46800
+217,2024-07-08,37,24,Bananes,Fruits,Achat,105,500,52500
+218,2024-07-10,21,15,Coton graine,Cultures de rente,Vente,500,300,150000
+219,2024-07-12,47,9,Arachides décortiquées,Légumineuses,Vente,95,800,76000
+220,2024-07-15,10,18,Choux,Maraîchage,Vente,68,350,23800
+221,2024-07-18,34,23,Oranges,Fruits,Vente,118,450,53100
+222,2024-07-20,19,11,Niébé rouge,Légumineuses,Vente,138,550,75900
+223,2024-07-22,42,6,Riz décortiqué,Céréales,Vente,95,750,71250
+224,2024-07-25,26,14,Noix de karité,Oléagineux,Achat,400,180,72000
+225,2024-07-28,9,1,Mil,Céréales,Vente,580,350,203000
+226,2024-07-30,35,20,Gombo,Maraîchage,Vente,82,525,43050
+227,2024-08-02,15,4,Maïs,Céréales,Vente,560,300,168000
+228,2024-08-05,31,25,Papayes,Fruits,Vente,98,375,36750
+229,2024-08-08,44,2,Sorgho blanc,Céréales,Achat,235,380,89300
+230,2024-08-10,1,21,Aubergine,Maraîchage,Vente,72,450,32400
+231,2024-08-12,27,19,Haricot vert,Maraîchage,Vente,48,900,43200
+232,2024-08-15,14,8,Arachides coques,Légumineuses,Vente,185,550,101750
+233,2024-08-18,41,13,Beurre de karité,Oléagineux,Vente,22,2800,61600
+234,2024-08-20,23,16,Tomates,Maraîchage,Achat,82,500,41000
+235,2024-08-22,6,5,Riz paddy,Céréales,Vente,138,500,69000
+236,2024-08-25,50,17,Oignons,Maraîchage,Vente,165,650,107250
+237,2024-08-28,33,10,Niébé blanc,Légumineuses,Vente,158,600,94800
+238,2024-08-30,18,3,Sorgho rouge,Céréales,Vente,152,380,57760
+239,2024-09-02,45,22,Mangues,Fruits,Vente,135,350,47250
+240,2024-09-05,29,12,Sésame,Oléagineux,Achat,48,1100,52800
+241,2024-09-08,2,7,Fonio,Céréales,Vente,82,650,53300
+242,2024-09-10,37,24,Bananes,Fruits,Vente,118,550,64900
+243,2024-09-12,21,15,Coton graine,Cultures de rente,Vente,540,300,162000
+244,2024-09-15,47,9,Arachides décortiquées,Légumineuses,Vente,105,800,84000
+245,2024-09-18,10,18,Choux,Maraîchage,Vente,75,350,26250
+246,2024-09-20,34,23,Oranges,Fruits,Achat,128,420,53760
+247,2024-09-22,19,11,Niébé rouge,Légumineuses,Vente,148,550,81400
+248,2024-09-25,42,6,Riz décortiqué,Céréales,Vente,105,750,78750
+249,2024-09-28,26,14,Noix de karité,Oléagineux,Vente,450,220,99000
+250,2024-09-30,9,1,Mil,Céréales,Vente,620,350,217000
+251,2024-10-03,35,20,Gombo,Maraîchage,Vente,92,525,48300
+252,2024-10-05,15,4,Maïs,Céréales,Achat,600,270,162000
+253,2024-10-08,31,25,Papayes,Fruits,Vente,108,375,40500
+254,2024-10-10,44,2,Sorgho blanc,Céréales,Vente,255,400,102000
+255,2024-10-12,1,21,Aubergine,Maraîchage,Vente,82,450,36900
+256,2024-10-15,27,19,Haricot vert,Maraîchage,Vente,55,900,49500
+257,2024-10-18,14,8,Arachides coques,Légumineuses,Vente,195,550,107250
+258,2024-10-20,41,13,Beurre de karité,Oléagineux,Achat,25,2600,65000
+259,2024-10-22,23,16,Tomates,Maraîchage,Vente,88,550,48400
+260,2024-10-25,6,5,Riz paddy,Céréales,Vente,148,500,74000
+261,2024-10-28,50,17,Oignons,Maraîchage,Vente,175,650,113750
+262,2024-10-30,33,10,Niébé blanc,Légumineuses,Vente,168,600,100800
+263,2024-11-02,18,3,Sorgho rouge,Céréales,Vente,162,380,61560
+264,2024-11-05,45,22,Mangues,Fruits,Achat,145,320,46400
+265,2024-11-08,29,12,Sésame,Oléagineux,Vente,55,1200,66000
+266,2024-11-10,2,7,Fonio,Céréales,Vente,92,650,59800
+267,2024-11-12,37,24,Bananes,Fruits,Vente,128,550,70400
+268,2024-11-15,21,15,Coton graine,Cultures de rente,Vente,580,300,174000
+269,2024-11-18,47,9,Arachides décortiquées,Légumineuses,Achat,115,750,86250
+270,2024-11-20,10,18,Choux,Maraîchage,Vente,85,350,29750
+271,2024-11-22,34,23,Oranges,Fruits,Vente,138,450,62100
+272,2024-11-25,19,11,Niébé rouge,Légumineuses,Vente,158,550,86900
+273,2024-11-28,42,6,Riz décortiqué,Céréales,Vente,115,750,86250
+274,2024-11-30,26,14,Noix de karité,Oléagineux,Vente,500,220,110000
+275,2024-12-03,9,1,Mil,Céréales,Achat,650,320,208000
+276,2024-12-05,35,20,Gombo,Maraîchage,Vente,105,525,55125
+277,2024-12-08,15,4,Maïs,Céréales,Vente,640,300,192000
+278,2024-12-10,31,25,Papayes,Fruits,Vente,118,375,44250
+279,2024-12-12,44,2,Sorgho blanc,Céréales,Vente,275,400,110000
+280,2024-12-15,1,21,Aubergine,Maraîchage,Achat,92,420,38640
+281,2024-12-18,27,19,Haricot vert,Maraîchage,Vente,62,900,55800
+282,2024-12-20,14,8,Arachides coques,Légumineuses,Vente,205,550,112750
+283,2024-12-22,41,13,Beurre de karité,Oléagineux,Vente,28,2800,78400
+284,2024-12-25,23,16,Tomates,Maraîchage,Vente,95,550,52250
+285,2024-12-28,6,5,Riz paddy,Céréales,Vente,158,500,79000
+286,2024-12-30,50,17,Oignons,Maraîchage,Vente,185,650,120250
+287,2025-01-02,33,10,Niébé blanc,Légumineuses,Achat,175,580,101500
+288,2025-01-05,18,3,Sorgho rouge,Céréales,Vente,172,380,65360
+289,2025-01-08,45,22,Mangues,Fruits,Vente,155,350,54250
+290,2025-01-10,29,12,Sésame,Oléagineux,Vente,62,1200,74400
+291,2025-01-12,2,7,Fonio,Céréales,Achat,102,600,61200
+292,2025-01-15,37,24,Bananes,Fruits,Vente,138,550,75900
+293,2025-01-18,21,15,Coton graine,Cultures de rente,Vente,620,300,186000
+294,2025-01-20,47,9,Arachides décortiquées,Légumineuses,Vente,125,800,100000
+295,2025-01-22,10,18,Choux,Maraîchage,Vente,95,350,33250
+296,2025-01-25,34,23,Oranges,Fruits,Vente,148,450,66600
+297,2025-01-28,19,11,Niébé rouge,Légumineuses,Achat,168,520,87360
+298,2025-01-30,42,6,Riz décortiqué,Céréales,Vente,125,750,93750
+299,2025-02-02,26,14,Noix de karité,Oléagineux,Vente,550,220,121000
+300,2025-02-05,9,1,Mil,Céréales,Vente,700,350,245000
+301,2025-02-08,35,20,Gombo,Maraîchage,Vente,115,525,60375
+302,2025-02-10,15,4,Maïs,Céréales,Vente,680,300,204000
+303,2025-02-12,31,25,Papayes,Fruits,Achat,128,350,44800
+304,2025-02-15,44,2,Sorgho blanc,Céréales,Vente,295,400,118000
+305,2025-02-18,1,21,Aubergine,Maraîchage,Vente,105,450,47250
+306,2025-02-20,27,19,Haricot vert,Maraîchage,Vente,68,900,61200
+307,2025-02-22,14,8,Arachides coques,Légumineuses,Vente,215,550,118250
+308,2025-02-25,41,13,Beurre de karité,Oléagineux,Vente,32,2800,89600
+309,2025-02-28,23,16,Tomates,Maraîchage,Achat,105,500,52500
+310,2025-03-03,6,5,Riz paddy,Céréales,Vente,168,500,84000
+311,2025-03-05,50,17,Oignons,Maraîchage,Vente,195,650,126750
+312,2025-03-08,33,10,Niébé blanc,Légumineuses,Vente,185,600,111000
+313,2025-03-10,18,3,Sorgho rouge,Céréales,Vente,182,380,69160
+314,2025-03-12,45,22,Mangues,Fruits,Vente,165,350,57750
+315,2025-03-15,29,12,Sésame,Oléagineux,Achat,68,1100,74800
+316,2025-03-18,2,7,Fonio,Céréales,Vente,112,650,72800
+317,2025-03-20,37,24,Bananes,Fruits,Vente,148,550,81400
+318,2025-03-22,21,15,Coton graine,Cultures de rente,Vente,660,300,198000
+319,2025-03-25,47,9,Arachides décortiquées,Légumineuses,Vente,135,800,108000
+320,2025-03-28,10,18,Choux,Maraîchage,Vente,105,350,36750
+321,2025-03-30,34,23,Oranges,Fruits,Vente,158,450,71100
+322,2025-04-02,19,11,Niébé rouge,Légumineuses,Vente,178,550,97900
+323,2025-04-05,42,6,Riz décortiqué,Céréales,Achat,135,720,97200
+324,2025-04-08,26,14,Noix de karité,Oléagineux,Vente,600,220,132000
+325,2025-04-10,9,1,Mil,Céréales,Vente,750,350,262500
+326,2025-04-12,35,20,Gombo,Maraîchage,Vente,125,525,65625
+327,2025-04-15,15,4,Maïs,Céréales,Vente,720,300,216000
+328,2025-04-18,31,25,Papayes,Fruits,Vente,138,375,51750
+329,2025-04-20,44,2,Sorgho blanc,Céréales,Vente,315,400,126000
+330,2025-04-22,1,21,Aubergine,Maraîchage,Vente,115,450,51750
+331,2025-04-25,27,19,Haricot vert,Maraîchage,Achat,75,850,63750
+332,2025-04-28,14,8,Arachides coques,Légumineuses,Vente,225,550,123750
+333,2025-04-30,41,13,Beurre de karité,Oléagineux,Vente,35,2800,98000
+334,2025-05-03,23,16,Tomates,Maraîchage,Vente,115,550,63250
+335,2025-05-05,6,5,Riz paddy,Céréales,Vente,178,500,89000
+336,2025-05-08,50,17,Oignons,Maraîchage,Vente,205,650,133250
+337,2025-05-10,33,10,Niébé blanc,Légumineuses,Achat,195,580,113100
+338,2025-05-12,18,3,Sorgho rouge,Céréales,Vente,192,380,72960
+339,2025-05-15,45,22,Mangues,Fruits,Vente,175,350,61250
+340,2025-05-18,29,12,Sésame,Oléagineux,Vente,75,1200,90000
+341,2025-05-20,2,7,Fonio,Céréales,Vente,122,650,79300
+342,2025-05-22,37,24,Bananes,Fruits,Achat,158,500,79000
+343,2025-05-25,21,15,Coton graine,Cultures de rente,Vente,700,300,210000
+344,2025-05-28,47,9,Arachides décortiquées,Légumineuses,Vente,145,800,116000
+345,2025-05-30,10,18,Choux,Maraîchage,Vente,115,350,40250
+346,2025-06-02,34,23,Oranges,Fruits,Vente,168,450,75600
+347,2025-06-05,19,11,Niébé rouge,Légumineuses,Vente,188,550,103400
+348,2025-06-08,42,6,Riz décortiqué,Céréales,Vente,145,750,108750
+349,2025-06-10,26,14,Noix de karité,Oléagineux,Achat,650,180,117000
+350,2025-06-12,9,1,Mil,Céréales,Vente,800,350,280000
+351,2025-06-15,35,20,Gombo,Maraîchage,Vente,135,525,70875
+352,2025-06-18,15,4,Maïs,Céréales,Vente,760,300,228000
+353,2025-06-20,31,25,Papayes,Fruits,Vente,148,375,55500
+354,2025-06-22,44,2,Sorgho blanc,Céréales,Achat,335,380,127300
+355,2025-06-25,1,21,Aubergine,Maraîchage,Vente,125,450,56250
+356,2025-06-28,27,19,Haricot vert,Maraîchage,Vente,82,900,73800
+357,2025-06-30,14,8,Arachides coques,Légumineuses,Vente,235,550,129250
+358,2025-07-03,41,13,Beurre de karité,Oléagineux,Vente,38,2800,106400
+359,2025-07-05,23,16,Tomates,Maraîchage,Achat,125,500,62500
+360,2025-07-08,6,5,Riz paddy,Céréales,Vente,188,500,94000
+361,2025-07-10,50,17,Oignons,Maraîchage,Vente,215,650,139750
+362,2025-07-12,33,10,Niébé blanc,Légumineuses,Vente,205,600,123000
+363,2025-07-15,18,3,Sorgho rouge,Céréales,Vente,202,380,76760
+364,2025-07-18,45,22,Mangues,Fruits,Vente,185,350,64750
+365,2025-07-20,29,12,Sésame,Oléagineux,Vente,82,1200,98400
+366,2025-07-22,2,7,Fonio,Céréales,Achat,132,600,79200
+367,2025-07-25,37,24,Bananes,Fruits,Vente,168,550,92400
+368,2025-07-28,21,15,Coton graine,Cultures de rente,Vente,740,300,222000
+369,2025-07-30,47,9,Arachides décortiquées,Légumineuses,Vente,155,800,124000
+370,2025-08-02,10,18,Choux,Maraîchage,Vente,125,350,43750
+371,2025-08-05,34,23,Oranges,Fruits,Achat,178,420,74760
+372,2025-08-08,19,11,Niébé rouge,Légumineuses,Vente,198,550,108900
+373,2025-08-10,42,6,Riz décortiqué,Céréales,Vente,155,750,116250
+374,2025-08-12,26,14,Noix de karité,Oléagineux,Vente,700,220,154000
+375,2025-08-15,9,1,Mil,Céréales,Vente,850,350,297500
+376,2025-08-18,35,20,Gombo,Maraîchage,Vente,145,525,76125
+377,2025-08-20,15,4,Maïs,Céréales,Achat,800,270,216000
+378,2025-08-22,31,25,Papayes,Fruits,Vente,158,375,59250
+379,2025-08-25,44,2,Sorgho blanc,Céréales,Vente,355,400,142000
+380,2025-08-28,1,21,Aubergine,Maraîchage,Vente,135,450,60750
+381,2025-08-30,27,19,Haricot vert,Maraîchage,Vente,92,900,82800
+382,2025-09-02,14,8,Arachides coques,Légumineuses,Vente,245,550,134750
+383,2025-09-05,41,13,Beurre de karité,Oléagineux,Achat,42,2600,109200
+384,2025-09-08,23,16,Tomates,Maraîchage,Vente,135,550,74250
+385,2025-09-10,6,5,Riz paddy,Céréales,Vente,198,500,99000
+386,2025-09-12,50,17,Oignons,Maraîchage,Vente,225,650,146250
+387,2025-09-15,33,10,Niébé blanc,Légumineuses,Vente,215,600,129000
+388,2025-09-18,18,3,Sorgho rouge,Céréales,Achat,212,360,76320
+389,2025-09-20,45,22,Mangues,Fruits,Vente,195,350,68250
+390,2025-09-22,29,12,Sésame,Oléagineux,Vente,88,1200,105600
+391,2025-09-25,2,7,Fonio,Céréales,Vente,142,650,92300
+392,2025-09-28,37,24,Bananes,Fruits,Vente,178,550,97900
+393,2025-09-30,21,15,Coton graine,Cultures de rente,Vente,780,300,234000
+394,2025-10-03,47,9,Arachides décortiquées,Légumineuses,Achat,165,750,123750
+395,2025-10-05,10,18,Choux,Maraîchage,Vente,135,350,47250
+396,2025-10-08,34,23,Oranges,Fruits,Vente,188,450,84600
+397,2025-10-10,19,11,Niébé rouge,Légumineuses,Vente,208,550,114400
+398,2025-10-12,42,6,Riz décortiqué,Céréales,Vente,165,750,123750
+399,2025-10-15,26,14,Noix de karité,Oléagineux,Vente,750,220,165000
+400,2025-10-18,9,1,Mil,Céréales,Achat,900,320,288000
+401,2025-10-20,35,20,Gombo,Maraîchage,Vente,155,525,81375
+402,2025-10-22,15,4,Maïs,Céréales,Vente,840,300,252000
+403,2025-10-25,31,25,Papayes,Fruits,Vente,168,375,63000
+404,2025-10-28,44,2,Sorgho blanc,Céréales,Vente,375,400,150000
+405,2025-10-30,1,21,Aubergine,Maraîchage,Achat,145,420,60900
+406,2025-11-02,27,19,Haricot vert,Maraîchage,Vente,102,900,91800
+407,2025-11-05,14,8,Arachides coques,Légumineuses,Vente,255,550,140250
+408,2025-11-08,41,13,Beurre de karité,Oléagineux,Vente,45,2800,126000
+409,2025-11-10,23,16,Tomates,Maraîchage,Vente,145,550,79750
+410,2025-11-12,6,5,Riz paddy,Céréales,Vente,208,500,104000
+411,2025-11-15,50,17,Oignons,Maraîchage,Achat,235,600,141000
+412,2025-11-18,33,10,Niébé blanc,Légumineuses,Vente,225,600,135000
+413,2025-11-20,18,3,Sorgho rouge,Céréales,Vente,222,380,84360
+414,2025-11-22,45,22,Mangues,Fruits,Vente,205,350,71750
+415,2025-11-25,29,12,Sésame,Oléagineux,Vente,95,1200,114000
+416,2025-11-28,2,7,Fonio,Céréales,Achat,152,600,91200
+417,2025-11-30,37,24,Bananes,Fruits,Vente,188,550,103400
+418,2025-12-03,21,15,Coton graine,Cultures de rente,Vente,820,300,246000
+419,2025-12-05,47,9,Arachides décortiquées,Légumineuses,Vente,175,800,140000
+420,2025-12-08,10,18,Choux,Maraîchage,Vente,145,350,50750
+421,2025-12-10,34,23,Oranges,Fruits,Achat,198,420,83160
+422,2025-12-12,19,11,Niébé rouge,Légumineuses,Vente,218,550,119900
+423,2025-12-15,42,6,Riz décortiqué,Céréales,Vente,175,750,131250
+424,2025-12-18,26,14,Noix de karité,Oléagineux,Vente,800,220,176000
+425,2025-12-20,9,1,Mil,Céréales,Vente,950,350,332500
+426,2025-12-22,35,20,Gombo,Maraîchage,Vente,165,525,86625
+427,2025-12-25,15,4,Maïs,Céréales,Vente,880,300,264000
+428,2025-12-28,31,25,Papayes,Fruits,Vente,178,375,66750
+429,2025-12-30,44,2,Sorgho blanc,Céréales,Achat,395,380,150100
+430,2026-01-02,1,21,Aubergine,Maraîchage,Vente,155,450,69750
+431,2026-01-05,27,19,Haricot vert,Maraîchage,Vente,112,900,100800
+432,2026-01-08,14,8,Arachides coques,Légumineuses,Vente,265,550,145750
+433,2026-01-10,41,13,Beurre de karité,Oléagineux,Vente,48,2800,134400
+434,2026-01-12,23,16,Tomates,Maraîchage,Achat,155,500,77500
+435,2026-01-15,6,5,Riz paddy,Céréales,Vente,218,500,109000
+436,2026-01-18,50,17,Oignons,Maraîchage,Vente,245,650,159250
+437,2026-01-20,33,10,Niébé blanc,Légumineuses,Vente,235,600,141000
+438,2026-01-22,18,3,Sorgho rouge,Céréales,Vente,232,380,88160
+439,2026-01-25,45,22,Mangues,Fruits,Achat,215,320,68800
+440,2026-01-28,29,12,Sésame,Oléagineux,Vente,105,1200,126000
+441,2026-01-30,2,7,Fonio,Céréales,Vente,162,650,105300
+442,2026-02-02,37,24,Bananes,Fruits,Vente,198,550,108900
+443,2026-02-05,21,15,Coton graine,Cultures de rente,Vente,860,300,258000
+444,2026-02-08,47,9,Arachides décortiquées,Légumineuses,Achat,185,750,138750
+445,2026-02-10,10,18,Choux,Maraîchage,Vente,155,350,54250
+446,2026-02-12,34,23,Oranges,Fruits,Vente,208,450,93600
+447,2026-02-15,19,11,Niébé rouge,Légumineuses,Vente,228,550,125400
+448,2026-02-18,42,6,Riz décortiqué,Céréales,Vente,185,750,138750
+449,2026-02-20,26,14,Noix de karité,Oléagineux,Achat,850,180,153000
+450,2026-02-22,9,1,Mil,Céréales,Vente,1000,350,350000
+451,2026-02-25,35,20,Gombo,Maraîchage,Vente,175,525,91875
+452,2026-02-28,15,4,Maïs,Céréales,Vente,920,300,276000
+453,2026-03-03,31,25,Papayes,Fruits,Vente,188,375,70500
+454,2026-03-05,44,2,Sorgho blanc,Céréales,Vente,415,400,166000
+455,2026-03-08,1,21,Aubergine,Maraîchage,Vente,165,450,74250
+456,2026-03-10,27,19,Haricot vert,Maraîchage,Achat,122,850,103700
+457,2026-03-12,14,8,Arachides coques,Légumineuses,Vente,275,550,151250
+458,2026-03-15,41,13,Beurre de karité,Oléagineux,Vente,52,2800,145600
+459,2026-03-18,23,16,Tomates,Maraîchage,Vente,165,550,90750
+460,2026-03-20,6,5,Riz paddy,Céréales,Vente,228,500,114000
+461,2026-03-22,50,17,Oignons,Maraîchage,Vente,255,650,165750
+462,2026-03-25,33,10,Niébé blanc,Légumineuses,Achat,245,580,142100
+463,2026-03-28,18,3,Sorgho rouge,Céréales,Vente,242,380,91960
+464,2026-03-30,45,22,Mangues,Fruits,Vente,225,350,78750
+465,2026-04-02,29,12,Sésame,Oléagineux,Vente,115,1200,138000
+466,2026-04-05,2,7,Fonio,Céréales,Vente,172,650,111800
+467,2026-04-08,37,24,Bananes,Fruits,Achat,208,500,104000
+468,2026-04-10,21,15,Coton graine,Cultures de rente,Vente,900,300,270000
+469,2026-04-12,47,9,Arachides décortiquées,Légumineuses,Vente,195,800,156000
+470,2026-04-15,10,18,Choux,Maraîchage,Vente,165,350,57750
+471,2026-04-18,34,23,Oranges,Fruits,Vente,218,450,98100
+472,2026-04-20,19,11,Niébé rouge,Légumineuses,Achat,238,520,123760
+473,2026-04-22,42,6,Riz décortiqué,Céréales,Vente,195,750,146250
+474,2026-04-25,26,14,Noix de karité,Oléagineux,Vente,900,220,198000
+475,2026-04-28,9,1,Mil,Céréales,Vente,1050,350,367500
+476,2026-04-30,35,20,Gombo,Maraîchage,Vente,185,525,97125
+477,2026-05-03,15,4,Maïs,Céréales,Achat,960,270,259200
+478,2026-05-05,31,25,Papayes,Fruits,Vente,198,375,74250
+479,2026-05-08,44,2,Sorgho blanc,Céréales,Vente,435,400,174000
+480,2026-05-10,1,21,Aubergine,Maraîchage,Vente,175,450,78750
+481,2026-05-12,27,19,Haricot vert,Maraîchage,Vente,132,900,118800
+482,2026-05-15,14,8,Arachides coques,Légumineuses,Vente,285,550,156750
+483,2026-05-18,41,13,Beurre de karité,Oléagineux,Achat,55,2600,143000
+484,2026-05-20,23,16,Tomates,Maraîchage,Vente,175,550,96250
+485,2026-05-22,6,5,Riz paddy,Céréales,Vente,238,500,119000
+486,2026-05-25,50,17,Oignons,Maraîchage,Vente,265,650,172250
+487,2026-05-28,33,10,Niébé blanc,Légumineuses,Vente,255,600,153000
+488,2026-05-30,18,3,Sorgho rouge,Céréales,Vente,252,380,95760
+489,2026-06-02,45,22,Mangues,Fruits,Vente,235,350,82250
+490,2026-06-05,29,12,Sésame,Oléagineux,Vente,125,1200,150000
+491,2026-06-08,2,7,Fonio,Céréales,Achat,182,600,109200
+492,2026-06-10,37,24,Bananes,Fruits,Vente,218,550,119900
+493,2026-06-12,21,15,Coton graine,Cultures de rente,Vente,940,300,282000
+494,2026-06-15,47,9,Arachides décortiquées,Légumineuses,Vente,205,800,164000
+495,2026-06-18,10,18,Choux,Maraîchage,Vente,175,350,61250
+496,2026-06-20,34,23,Oranges,Fruits,Achat,228,420,95760
+497,2026-06-22,19,11,Niébé rouge,Légumineuses,Vente,248,550,136400
+498,2026-06-25,42,6,Riz décortiqué,Céréales,Vente,205,750,153750
+499,2026-06-28,26,14,Noix de karité,Oléagineux,Vente,950,220,209000
+500,2026-06-30,9,1,Mil,Céréales,Vente,1100,350,385000
